@@ -26,39 +26,52 @@ export default class DropDownMenu extends React.Component {
     visible: false,
   }
 
+  shouldComponentUpdate(nextProps, nextState) {
+    return nextProps.items !== this.props.items ||
+      nextProps.title !== this.props.title ||
+      nextState.visible !== this.state.visible;
+  }
+
   close = () => { this.setState({visible: false}); }
+
+  handleVisibleChange = visible => this.setState({visible});
 
   handleSelect = (e, id) => {
     this.props.onSelect(id, e);
     this.close();
   }
 
-  render() {
-    const props = this.props;
-    const menu = (
-      <div className={b.mix(props.mix)()}>
-        <div>
-          {props.title && <div className={b('title')}>{props.title}</div>}
-          <div className={b('menu')}>
-            {props.items.map((item, index) =>
-              <div
-                key={index}
-                onClick={(e) => { this.handleSelect(e, item.id); }}
-                className={b('menu-item').is({selected: item.active})}
-              >
-                {item.title}
-              </div>
-            )}
-          </div>
+  createMenuTitle = () =>
+    this.props.title && <div className={b('title')}>{this.props.title}</div>;
+
+  createMenuList = () => this.props.items.map((item, index) =>
+    <div
+      key={index}
+      onClick={e => this.handleSelect(e, item.id)}
+      className={b('menu-item').is({selected: item.active})}
+    >
+      {item.title}
+    </div>);
+
+  createMenu = () => (
+    <div className={b.mix(this.props.mix)()}>
+      <div>
+        {this.createMenuTitle()}
+        <div className={b('menu')}>
+          {this.createMenuList()}
         </div>
       </div>
-    );
+    </div>
+  );
+
+
+  render() {
     return (
       <RcDropdown
         visible={this.state.visible}
         trigger={['click']}
-        overlay={menu}
-        onVisibleChange={(visible) => { this.setState({visible}); }}
+        overlay={this.createMenu()}
+        onVisibleChange={this.handleVisibleChange}
         closeOnSelect={false}
       >
         {this.props.children}

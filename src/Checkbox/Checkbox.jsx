@@ -1,19 +1,31 @@
-import React, {PropTypes} from 'react';
+import React, {PropTypes, Component} from 'react';
 import {block} from '../utils';
 import './e-checkbox.scss';
 
 const b = block('e-checkbox');
 
-const Checkbox = props =>
-  <div
-    onClick={() => props.onChange(!props.checked)}
-    className={b.is({checked: props.checked}).mix(props.mix)}
-  />;
+export default class Checkbox extends Component {
+  static propTypes = {
+    /** состояние чекбокса */
+    checked: PropTypes.bool.isRequired,
+    /** функция смены состояния */
+    onChange: PropTypes.func.isRequired,
+    /** css class для модификации */
+    mix: PropTypes.string,
+  }
 
-Checkbox.PropTypes = {
-  checked: PropTypes.bool.isRequired,
-  onChange: PropTypes.func.isRequired,
-  mix: PropTypes.string,
-};
+  shouldComponentUpdate(nextProps) {
+    return nextProps.checked !== this.props.checked;
+  }
 
-export default Checkbox;
+  handlerClick = () => this.props.onChange(!this.props.checked);
+
+  render() {
+    return (
+      <div
+        onClick={this.handlerClick}
+        className={b.is({checked: this.props.checked}).mix(this.props.mix)}
+      />
+    );
+  }
+}

@@ -1,4 +1,4 @@
-import {CONFIG_SET_PER_PAGE} from '../Filter/actions';
+import {CONFIG_SET_PER_PAGE, CONFIG_RESET} from '../Filter/actions';
 import {
   TABLE_EDITOR_LOAD_START,
   TABLE_EDITOR_LOAD_SUCCESS,
@@ -42,6 +42,12 @@ export default function (state = initialState, action) {
       return {
         ...state,
         checked: action.payload.checked ? action.payload.id : []
+      };
+
+    case CONFIG_RESET:
+      return {
+        ...state,
+        checked: []
       };
 
     default:

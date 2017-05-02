@@ -1,29 +1,41 @@
-import React, {PropTypes} from 'react';
+import React, {PropTypes, Component} from 'react';
 import {block} from '../utils';
 import './e-button.scss';
 
 const b = block('e-button');
 
-const Button = props =>
-  <button
-    type='button'
-    disabled={props.disabled}
-    onClick={(e) => { e.preventDefault(); props.onClick(); }}
-    className={b.mix(props.mix)}
-  >
-    {props.children}
-  </button>;
+export default class Button extends Component {
+  static propTypes = {
+    /** клик по кнопке */
+    onClick: PropTypes.func,
+    /** css class для модификации */
+    mix: PropTypes.string,
+    /** состояние кнопки */
+    disabled: PropTypes.bool,
+  }
 
-Button.propTypes = {
-  onClick: PropTypes.func,
-  mix: PropTypes.string,
-  disabled: PropTypes.bool,
-};
+  static defaultProps = {
+    disabled: false,
+    onClick: () => {},
+    mix: '',
+  }
 
-Button.defaultProps = {
-  disabled: false,
-  onClick: () => {},
-  mix: '',
-};
+  shouldComponentUpdate(nextProps) {
+    return nextProps.disabled !== this.props.disabled;
+  }
 
-export default Button;
+  handlerClick = (e) => { e.preventDefault(); this.props.onClick(); };
+
+  render() {
+    return (
+      <button
+        type='button'
+        disabled={this.props.disabled}
+        onClick={this.handlerClick}
+        className={b.mix(this.props.mix)}
+      >
+        {this.props.children}
+      </button>
+    );
+  }
+}
