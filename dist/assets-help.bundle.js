@@ -78,7 +78,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
+<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /******/ 	var hotCurrentHash = "9f50f6153e2d5d87bf13"; // eslint-disable-line no-unused-vars
+=======
+/******/ 	var hotCurrentHash = "7519724a3adb7af8bb0e"; // eslint-disable-line no-unused-vars
+>>>>>>> feature: ckeditor toolbar
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -596,7 +600,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	module.exports = __webpack_require__(698);
+=======
+	module.exports = __webpack_require__(679);
+>>>>>>> feature: ckeditor toolbar
 
 
 /***/ }),
@@ -10014,7 +10022,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var actions = _interopRequireWildcard(_actions);
 
+<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	__webpack_require__(518);
+=======
+	__webpack_require__(501);
+>>>>>>> feature: ckeditor toolbar
 
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -10318,7 +10330,114 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, _marked[0], this);
 	}
 
+<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
+=======
+/***/ },
+/* 392 */,
+/* 393 */,
+/* 394 */,
+/* 395 */,
+/* 396 */,
+/* 397 */,
+/* 398 */,
+/* 399 */,
+/* 400 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _getPrototypeOf = __webpack_require__(6);
+
+	var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+	var _classCallCheck2 = __webpack_require__(3);
+
+	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+	var _createClass2 = __webpack_require__(7);
+
+	var _createClass3 = _interopRequireDefault(_createClass2);
+
+	var _possibleConstructorReturn2 = __webpack_require__(5);
+
+	var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+	var _inherits2 = __webpack_require__(4);
+
+	var _inherits3 = _interopRequireDefault(_inherits2);
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _throttle2 = __webpack_require__(115);
+
+	var _throttle3 = _interopRequireDefault(_throttle2);
+
+	var _isEqual2 = __webpack_require__(10);
+
+	var _isEqual3 = _interopRequireDefault(_isEqual2);
+
+	var _utils = __webpack_require__(9);
+
+	__webpack_require__(506);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var b = (0, _utils.block)('e-search');
+
+	var Search = function (_React$Component) {
+	  (0, _inherits3.default)(Search, _React$Component);
+
+	  function Search() {
+	    var _ref;
+
+	    var _temp, _this, _ret;
+
+	    (0, _classCallCheck3.default)(this, Search);
+
+	    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+	      args[_key] = arguments[_key];
+	    }
+
+	    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Search.__proto__ || (0, _getPrototypeOf2.default)(Search)).call.apply(_ref, [this].concat(args))), _this), _this.handlerKeyUp = (0, _throttle3.default)(function (value) {
+	      return _this.props.onChange(value);
+	    }, 500), _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
+	  }
+
+	  (0, _createClass3.default)(Search, [{
+	    key: 'shouldComponentUpdate',
+	    value: function shouldComponentUpdate(nextProps) {
+	      return !(0, _isEqual3.default)(this.props, nextProps);
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var _this2 = this;
+
+	      return _react2.default.createElement('input', {
+	        className: b,
+	        onKeyUp: function onKeyUp(e) {
+	          return _this2.handlerKeyUp(e.target.value);
+	        }
+	      });
+	    }
+	  }]);
+	  return Search;
+	}(_react2.default.Component);
+
+	Search.propTypes = {
+	  onChange: _react.PropTypes.func.isRequired
+	};
+	exports.default = Search;
+
+/***/ },
+>>>>>>> feature: ckeditor toolbar
 /* 401 */,
 /* 402 */,
 /* 403 */,
@@ -10419,12 +10538,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 498 */,
 /* 499 */,
 /* 500 */,
+<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /* 501 */,
+=======
+/* 501 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+>>>>>>> feature: ckeditor toolbar
 /* 502 */,
 /* 503 */,
 /* 504 */,
 /* 505 */,
+<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /* 506 */,
+=======
+/* 506 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+>>>>>>> feature: ckeditor toolbar
 /* 507 */,
 /* 508 */,
 /* 509 */,
@@ -10602,6 +10739,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 676 */,
 /* 677 */,
 /* 678 */,
+<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /* 679 */,
 /* 680 */,
 /* 681 */,
@@ -10623,6 +10761,10 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 697 */,
 /* 698 */
 /***/ (function(module, exports, __webpack_require__) {
+=======
+/* 679 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 

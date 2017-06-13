@@ -4,7 +4,6 @@ import {bindActionCreators} from 'redux';
 import RcDropdown from 'rc-dropdown';
 import _isEqual from 'lodash/isEqual';
 import validation from '../utils/validation';
-import toolbarConfig from './ckeditorToolbar';
 import {block} from '../utils';
 import {
   startTextEdit,
@@ -101,7 +100,7 @@ class TextCell extends Component {
       editor.on('blur', () => this.handleClose(editor));
       editor.on('mode', () => editor.focus());
       editor.on('configLoaded', () => {
-        editor.config.toolbar = toolbarConfig;
+        editor.config.toolbar = app.config.ckeditor.toolbarTiger;
         editor.config.resize_enabled = false;
       });
     });
