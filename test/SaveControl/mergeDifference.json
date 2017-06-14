@@ -1,0 +1,66 @@
+[
+  {
+    "id": 8,
+    "columns": {
+      "name": {
+        "text": "test name 7"
+      },
+      "product_group": {
+        "parent_id": 3
+      }
+    }
+  },
+  {
+    "id": 2,
+    "columns": {
+      "name": {
+        "text": "name 2"
+      },
+      "product_group": {
+        "parent_id": null
+      },
+      "photo": {
+        "images": []
+      }
+    }
+  },
+  {
+    "id": 1,
+    "columns": {
+      "name": {
+        "text": "test name 1"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "columns": {
+      "product_group": {
+        "parent_id": 2
+      },
+      "photo": {
+        "images": [
+          {
+            "id": 3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 4,
+    "columns": {
+      "name": {
+        "text": "test name 3"
+      },
+      "photo": {
+        "images": []
+      }
+    }
+  },
+  {
+    "id": -7,
+    "columns": {},
+    "destroy": true
+  }
+]

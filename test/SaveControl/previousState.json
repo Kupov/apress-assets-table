@@ -1,0 +1,126 @@
+[
+  {
+    "check": {
+      "common": {
+        "id": 1
+      }
+    },
+    "name": {
+      "common": {
+        "text": "name 1"
+      }
+    },
+    "product_group": {
+      "common": {
+        "parent_id": 2
+      }
+    },
+    "photo": {
+      "common": {
+        "images": [
+          {
+            "id": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "check": {
+      "common": {
+        "id": 2
+      }
+    },
+    "name": {
+      "common": {
+        "text": "test name 2"
+      }
+    },
+    "product_group": {
+      "common": {
+        "parent_id": 2
+      }
+    },
+    "photo": {
+      "common": {
+        "images": [
+          {
+            "id": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "check": {
+      "common": {
+        "id": 3
+      }
+    },
+    "name": {
+      "common": {
+        "text": "test name 3"
+      }
+    },
+    "product_group": {
+      "common": {}
+    },
+    "photo": {
+      "common": {
+        "images": []
+      }
+    }
+  },
+  {
+    "check": {
+      "common": {
+        "id": 6
+      }
+    },
+    "name": {
+      "common": {
+        "text": "jdhgjdgh"
+      }
+    },
+    "product_group": {
+      "common": {
+        "parent_id": 2
+      }
+    },
+    "photo": {
+      "common": {
+        "images": [
+          {
+            "id": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "check": {
+      "common": {
+        "id": -7
+      }
+    },
+    "name": {
+      "common": {
+        "text": "jdhgjdgh"
+      }
+    },
+    "product_group": {
+      "common": {
+        "parent_id": 2
+      }
+    },
+    "photo": {
+      "common": {
+        "images": [
+          {
+            "id": 2
+          }
+        ]
+      }
+    }
+  }
+]
