@@ -9,13 +9,8 @@
 	else if(typeof exports === 'object')
 		exports["Assets-table"] = factory(require("react"), require("react-redux"), require("react-dom"), require("redux"), require("react-router"));
 	else
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 		root["Assets-table"] = factory(root["React"], root["ReactRedux"], root["ReactDom"], root["Redux"], root["ReactRouter"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_15__, __WEBPACK_EXTERNAL_MODULE_20__, __WEBPACK_EXTERNAL_MODULE_111__, __WEBPACK_EXTERNAL_MODULE_888__) {
-=======
-		root["Assets-table"] = factory(root["React"], root["ReactDom"], root["ReactRedux"], root["Redux"], root["ReactRouter"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_19__, __WEBPACK_EXTERNAL_MODULE_103__, __WEBPACK_EXTERNAL_MODULE_869__) {
->>>>>>> feature: ckeditor toolbar
+})(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_15__, __WEBPACK_EXTERNAL_MODULE_20__, __WEBPACK_EXTERNAL_MODULE_111__, __WEBPACK_EXTERNAL_MODULE_887__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	var parentHotUpdateCallback = this["webpackHotUpdateAssets_table"];
 /******/ 	this["webpackHotUpdateAssets_table"] = 
@@ -83,11 +78,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-/******/ 	var hotCurrentHash = "9f50f6153e2d5d87bf13"; // eslint-disable-line no-unused-vars
-=======
-/******/ 	var hotCurrentHash = "7519724a3adb7af8bb0e"; // eslint-disable-line no-unused-vars
->>>>>>> feature: ckeditor toolbar
+/******/ 	var hotCurrentHash = "ffe30925bddfbeb0a6ea"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -605,11 +596,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	module.exports = __webpack_require__(697);
-=======
-	module.exports = __webpack_require__(678);
->>>>>>> feature: ckeditor toolbar
+	module.exports = __webpack_require__(696);
 
 
 /***/ }),
@@ -733,11 +720,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _assign = __webpack_require__(436);
-=======
-	var _assign = __webpack_require__(423);
->>>>>>> feature: ckeditor toolbar
+	var _assign = __webpack_require__(435);
 
 	var _assign2 = _interopRequireDefault(_assign);
 
@@ -855,7 +838,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	} else {
 	  // By explicitly using `prop-types` you are opting into new production behavior.
 	  // http://fb.me/prop-types-in-prod
-	  module.exports = __webpack_require__(578)();
+	  module.exports = __webpack_require__(577)();
 	}
 
 
@@ -1712,7 +1695,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	'use strict';
 
 	var React = __webpack_require__(1);
-	var factory = __webpack_require__(481);
+	var factory = __webpack_require__(480);
 
 	// Hack to grab NoopUpdateQueue from isomorphic React
 	var ReactNoopUpdateQueue = new React.Component().updater;
@@ -2113,74 +2096,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var _defineProperty = __webpack_require__(148);
-=======
-	var _from = __webpack_require__(422);
-
-	var _from2 = _interopRequireDefault(_from);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	exports.default = function (arr) {
-	  if (Array.isArray(arr)) {
-	    for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) {
-	      arr2[i] = arr[i];
-	    }
-
-	    return arr2;
-	  } else {
-	    return (0, _from2.default)(arr);
-	  }
-	};
-
-/***/ },
-/* 35 */,
-/* 36 */,
-/* 37 */
-/***/ function(module, exports) {
-
-	/**
-	 * Checks if `value` is object-like. A value is object-like if it's not `null`
-	 * and has a `typeof` result of "object".
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 4.0.0
-	 * @category Lang
-	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
-	 * @example
-	 *
-	 * _.isObjectLike({});
-	 * // => true
-	 *
-	 * _.isObjectLike([1, 2, 3]);
-	 * // => true
-	 *
-	 * _.isObjectLike(_.noop);
-	 * // => false
-	 *
-	 * _.isObjectLike(null);
-	 * // => false
-	 */
-	function isObjectLike(value) {
-	  return value != null && typeof value == 'object';
-	}
-
-	module.exports = isObjectLike;
-
-
-/***/ },
-/* 38 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-
-	exports.__esModule = true;
-
-	var _defineProperty = __webpack_require__(142);
->>>>>>> feature: ckeditor toolbar
 
 	var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -2309,7 +2225,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _from = __webpack_require__(435);
+	var _from = __webpack_require__(434);
 
 	var _from2 = _interopRequireDefault(_from);
 
@@ -2757,15 +2673,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _effects = __webpack_require__(49);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _reactDnd = __webpack_require__(635);
+	var _reactDnd = __webpack_require__(634);
 
-	var _reactDndHtml5Backend = __webpack_require__(623);
-=======
-	var _reactDnd = __webpack_require__(616);
-
-	var _reactDndHtml5Backend = __webpack_require__(604);
->>>>>>> feature: ckeditor toolbar
+	var _reactDndHtml5Backend = __webpack_require__(622);
 
 	var _reactDndHtml5Backend2 = _interopRequireDefault(_reactDndHtml5Backend);
 
@@ -2801,15 +2711,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _DropDownMenu2 = _interopRequireDefault(_DropDownMenu);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var _Search = __webpack_require__(212);
 
 	var _Search2 = _interopRequireDefault(_Search);
 
-	__webpack_require__(526);
-=======
-	__webpack_require__(509);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(525);
 
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -3132,55 +3038,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = eq;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
 /* 68 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 64 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__(202)
-
-/***/ },
-/* 65 */
-/***/ function(module, exports) {
-
-	exports.f = {}.propertyIsEnumerable;
-
-/***/ },
-/* 66 */,
-/* 67 */,
-/* 68 */,
-/* 69 */,
-/* 70 */,
-/* 71 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var identity = __webpack_require__(339),
-	    overRest = __webpack_require__(548),
-	    setToString = __webpack_require__(549);
-
-	/**
-	 * The base implementation of `_.rest` which doesn't validate or coerce arguments.
-	 *
-	 * @private
-	 * @param {Function} func The function to apply a rest parameter to.
-	 * @param {number} [start=func.length-1] The start position of the rest parameter.
-	 * @returns {Function} Returns the new function.
-	 */
-	function baseRest(func, start) {
-	  return setToString(overRest(func, start, identity), func + '');
-	}
-
-	module.exports = baseRest;
-
-
-/***/ },
-/* 72 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -3194,7 +3054,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(9);
 
-	__webpack_require__(511);
+	__webpack_require__(510);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -3245,8 +3105,8 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ (function(module, exports, __webpack_require__) {
 
 	var identity = __webpack_require__(346),
-	    overRest = __webpack_require__(565),
-	    setToString = __webpack_require__(566);
+	    overRest = __webpack_require__(564),
+	    setToString = __webpack_require__(565);
 
 	/**
 	 * The base implementation of `_.rest` which doesn't validate or coerce arguments.
@@ -4467,17 +4327,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _isEqual2 = __webpack_require__(11);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var _isEqual3 = _interopRequireDefault(_isEqual2);
-=======
-	__webpack_require__(494);
->>>>>>> feature: ckeditor toolbar
 
-	var _rcDialog = __webpack_require__(587);
+	var _rcDialog = __webpack_require__(586);
 
 	var _rcDialog2 = _interopRequireDefault(_rcDialog);
 
-	__webpack_require__(513);
+	__webpack_require__(512);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -4734,11 +4590,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _propertyUtils = __webpack_require__(505);
-=======
-	var _propertyUtils = __webpack_require__(488);
->>>>>>> feature: ckeditor toolbar
+	var _propertyUtils = __webpack_require__(504);
 
 	var RE_NUM = /[\-+]?(?:\d*\.|)\d+(?:[eE][\-+]?\d+|)/.source;
 
@@ -5979,165 +5831,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = isBuffer;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(84)(module)))
-=======
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(77)(module)))
-
-/***/ },
-/* 115 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var debounce = __webpack_require__(193),
-	    isObject = __webpack_require__(22);
-
-	/** Error message constants. */
-	var FUNC_ERROR_TEXT = 'Expected a function';
-
-	/**
-	 * Creates a throttled function that only invokes `func` at most once per
-	 * every `wait` milliseconds. The throttled function comes with a `cancel`
-	 * method to cancel delayed `func` invocations and a `flush` method to
-	 * immediately invoke them. Provide `options` to indicate whether `func`
-	 * should be invoked on the leading and/or trailing edge of the `wait`
-	 * timeout. The `func` is invoked with the last arguments provided to the
-	 * throttled function. Subsequent calls to the throttled function return the
-	 * result of the last `func` invocation.
-	 *
-	 * **Note:** If `leading` and `trailing` options are `true`, `func` is
-	 * invoked on the trailing edge of the timeout only if the throttled function
-	 * is invoked more than once during the `wait` timeout.
-	 *
-	 * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
-	 * until to the next tick, similar to `setTimeout` with a timeout of `0`.
-	 *
-	 * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
-	 * for details over the differences between `_.throttle` and `_.debounce`.
-	 *
-	 * @static
-	 * @memberOf _
-	 * @since 0.1.0
-	 * @category Function
-	 * @param {Function} func The function to throttle.
-	 * @param {number} [wait=0] The number of milliseconds to throttle invocations to.
-	 * @param {Object} [options={}] The options object.
-	 * @param {boolean} [options.leading=true]
-	 *  Specify invoking on the leading edge of the timeout.
-	 * @param {boolean} [options.trailing=true]
-	 *  Specify invoking on the trailing edge of the timeout.
-	 * @returns {Function} Returns the new throttled function.
-	 * @example
-	 *
-	 * // Avoid excessively updating the position while scrolling.
-	 * jQuery(window).on('scroll', _.throttle(updatePosition, 100));
-	 *
-	 * // Invoke `renewToken` when the click event is fired, but not more than once every 5 minutes.
-	 * var throttled = _.throttle(renewToken, 300000, { 'trailing': false });
-	 * jQuery(element).on('click', throttled);
-	 *
-	 * // Cancel the trailing throttled invocation.
-	 * jQuery(window).on('popstate', throttled.cancel);
-	 */
-	function throttle(func, wait, options) {
-	  var leading = true,
-	      trailing = true;
-
-	  if (typeof func != 'function') {
-	    throw new TypeError(FUNC_ERROR_TEXT);
-	  }
-	  if (isObject(options)) {
-	    leading = 'leading' in options ? !!options.leading : leading;
-	    trailing = 'trailing' in options ? !!options.trailing : trailing;
-	  }
-	  return debounce(func, wait, {
-	    'leading': leading,
-	    'maxWait': wait,
-	    'trailing': trailing
-	  });
-	}
-
-	module.exports = throttle;
-
-
-/***/ },
-/* 116 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _extends2 = __webpack_require__(8);
-
-	var _extends3 = _interopRequireDefault(_extends2);
-
-	var _getPrototypeOf = __webpack_require__(6);
-
-	var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-	var _classCallCheck2 = __webpack_require__(3);
-
-	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-	var _createClass2 = __webpack_require__(7);
-
-	var _createClass3 = _interopRequireDefault(_createClass2);
-
-	var _possibleConstructorReturn2 = __webpack_require__(5);
-
-	var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-	var _inherits2 = __webpack_require__(4);
-
-	var _inherits3 = _interopRequireDefault(_inherits2);
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _isEqual2 = __webpack_require__(10);
-
-	var _isEqual3 = _interopRequireDefault(_isEqual2);
-
-	var _rcDialog = __webpack_require__(569);
-
-	var _rcDialog2 = _interopRequireDefault(_rcDialog);
-
-	__webpack_require__(496);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	var Dialog = function (_React$Component) {
-	  (0, _inherits3.default)(Dialog, _React$Component);
-
-	  function Dialog() {
-	    (0, _classCallCheck3.default)(this, Dialog);
-	    return (0, _possibleConstructorReturn3.default)(this, (Dialog.__proto__ || (0, _getPrototypeOf2.default)(Dialog)).apply(this, arguments));
-	  }
-
-	  (0, _createClass3.default)(Dialog, [{
-	    key: 'shouldComponentUpdate',
-	    value: function shouldComponentUpdate(nextProps) {
-	      return !(0, _isEqual3.default)(this.props, nextProps);
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      return _react2.default.createElement(
-	        _rcDialog2.default,
-	        (0, _extends3.default)({
-	          animation: 'slide-fade',
-	          maskAnimation: 'fade'
-	        }, this.props),
-	        this.props.children
-	      );
-	    }
-	  }]);
-	  return Dialog;
-	}(_react2.default.Component);
->>>>>>> feature: ckeditor toolbar
 
 /***/ }),
 /* 122 */
@@ -6770,11 +6464,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	'use strict';
 
 	// export this package's api
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	module.exports = __webpack_require__(583);
-=======
-	module.exports = __webpack_require__(565);
->>>>>>> feature: ckeditor toolbar
+	module.exports = __webpack_require__(582);
 
 /***/ }),
 /* 138 */
@@ -7311,11 +7001,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(9);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	__webpack_require__(512);
-=======
-	__webpack_require__(495);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(511);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7766,11 +7452,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _rcProgress = __webpack_require__(601);
+	var _rcProgress = __webpack_require__(600);
 
 	var _utils = __webpack_require__(9);
 
-	__webpack_require__(521);
+	__webpack_require__(520);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -8123,11 +7809,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var baseIndexOf = __webpack_require__(538);
-=======
-	var baseIndexOf = __webpack_require__(521);
->>>>>>> feature: ckeditor toolbar
+	var baseIndexOf = __webpack_require__(537);
 
 	/**
 	 * A specialized version of `_.includes` for arrays without support for
@@ -8715,15 +8397,9 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var arrayLikeKeys = __webpack_require__(188),
-	    baseKeysIn = __webpack_require__(541),
+	    baseKeysIn = __webpack_require__(540),
 	    isArrayLike = __webpack_require__(108);
-=======
-	var arrayLikeKeys = __webpack_require__(183),
-	    baseKeysIn = __webpack_require__(524),
-	    isArrayLike = __webpack_require__(101);
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * Creates an array of the own and inherited enumerable property names of `object`.
@@ -8794,7 +8470,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _Dropdown = __webpack_require__(589);
+	var _Dropdown = __webpack_require__(588);
 
 	var _Dropdown2 = _interopRequireDefault(_Dropdown);
 
@@ -8809,7 +8485,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	module.exports = __webpack_require__(612);
+	module.exports = __webpack_require__(611);
 
 /***/ }),
 /* 204 */
@@ -8822,13 +8498,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports['default'] = addEventListenerWrap;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var _addDomEventListener = __webpack_require__(388);
-=======
-	var _Dropdown = __webpack_require__(571);
-
-	var _Dropdown2 = _interopRequireDefault(_Dropdown);
->>>>>>> feature: ckeditor toolbar
 
 	var _addDomEventListener2 = _interopRequireDefault(_addDomEventListener);
 
@@ -8838,7 +8508,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	function addEventListenerWrap(target, eventType, cb) {
 	  /* eslint camelcase: 2 */
 	  var callback = _reactDom2['default'].unstable_batchedUpdates ? function run(e) {
@@ -8847,9 +8516,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return (0, _addDomEventListener2['default'])(target, eventType, callback);
 	}
 	module.exports = exports['default'];
-=======
-	module.exports = __webpack_require__(593);
->>>>>>> feature: ckeditor toolbar
 
 /***/ }),
 /* 205 */
@@ -9956,11 +9622,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _isEqual3 = _interopRequireDefault(_isEqual2);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	__webpack_require__(514);
-=======
-	__webpack_require__(497);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(513);
 
 	var _utils = __webpack_require__(9);
 
@@ -10112,11 +9774,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(9);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	__webpack_require__(523);
-=======
-	__webpack_require__(505);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(522);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10405,27 +10063,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.OptGroup = exports.Option = undefined;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _Select = __webpack_require__(607);
+	var _Select = __webpack_require__(606);
 
 	var _Select2 = _interopRequireDefault(_Select);
 
-	var _Option = __webpack_require__(605);
+	var _Option = __webpack_require__(604);
 
 	var _Option2 = _interopRequireDefault(_Option);
 
-	var _OptGroup = __webpack_require__(604);
-=======
-	var _Select = __webpack_require__(588);
-
-	var _Select2 = _interopRequireDefault(_Select);
-
-	var _Option = __webpack_require__(587);
-
-	var _Option2 = _interopRequireDefault(_Option);
-
-	var _OptGroup = __webpack_require__(586);
->>>>>>> feature: ckeditor toolbar
+	var _OptGroup = __webpack_require__(603);
 
 	var _OptGroup2 = _interopRequireDefault(_OptGroup);
 
@@ -10448,7 +10094,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.utils = exports.effects = exports.CANCEL = exports.delay = exports.throttle = exports.takeLatest = exports.takeEvery = exports.buffers = exports.channel = exports.eventChannel = exports.END = exports.runSaga = undefined;
 
-	var _runSaga = __webpack_require__(641);
+	var _runSaga = __webpack_require__(640);
 
 	Object.defineProperty(exports, 'runSaga', {
 	  enumerable: true,
@@ -10523,7 +10169,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	});
 
-	var _middleware = __webpack_require__(640);
+	var _middleware = __webpack_require__(639);
 
 	var _middleware2 = _interopRequireDefault(_middleware);
 
@@ -10531,7 +10177,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var effects = _interopRequireWildcard(_effects);
 
-	var _utils2 = __webpack_require__(642);
+	var _utils2 = __webpack_require__(641);
 
 	var utils = _interopRequireWildcard(_utils2);
 
@@ -12255,19 +11901,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _inherits3 = _interopRequireDefault(_inherits2);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _Tree = __webpack_require__(425);
+	var _Tree = __webpack_require__(424);
 
 	var _Tree2 = _interopRequireDefault(_Tree);
 
-	var _TreeLayer = __webpack_require__(427);
-=======
-	var _Tree = __webpack_require__(414);
-
-	var _Tree2 = _interopRequireDefault(_Tree);
-
-	var _TreeLayer = __webpack_require__(416);
->>>>>>> feature: ckeditor toolbar
+	var _TreeLayer = __webpack_require__(426);
 
 	var _TreeLayer2 = _interopRequireDefault(_TreeLayer);
 
@@ -13623,19 +13261,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = dirtyHandlerIds;
 	exports.areDirty = areDirty;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _xor = __webpack_require__(576);
+	var _xor = __webpack_require__(575);
 
 	var _xor2 = _interopRequireDefault(_xor);
 
-	var _intersection = __webpack_require__(573);
-=======
-	var _xor = __webpack_require__(559);
-
-	var _xor2 = _interopRequireDefault(_xor);
-
-	var _intersection = __webpack_require__(556);
->>>>>>> feature: ckeditor toolbar
+	var _intersection = __webpack_require__(572);
 
 	var _intersection2 = _interopRequireDefault(_intersection);
 
@@ -13940,11 +13570,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	module.exports = __webpack_require__(506);
-=======
-	module.exports = __webpack_require__(489);
->>>>>>> feature: ckeditor toolbar
+	module.exports = __webpack_require__(505);
 
 /***/ }),
 /* 290 */
@@ -14325,13 +13951,8 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 303 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var arrayPush = __webpack_require__(130),
-	    isFlattenable = __webpack_require__(562);
-=======
-	var arrayPush = __webpack_require__(124),
-	    isFlattenable = __webpack_require__(545);
->>>>>>> feature: ckeditor toolbar
+	    isFlattenable = __webpack_require__(561);
 
 	/**
 	 * The base implementation of `_.flatten` with support for restricting flattening.
@@ -14702,21 +14323,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 311 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var SetCache = __webpack_require__(104),
 	    arrayIncludes = __webpack_require__(186),
 	    arrayIncludesWith = __webpack_require__(187),
 	    cacheHas = __webpack_require__(105),
-	    createSet = __webpack_require__(556),
+	    createSet = __webpack_require__(555),
 	    setToArray = __webpack_require__(107);
-=======
-	var SetCache = __webpack_require__(97),
-	    arrayIncludes = __webpack_require__(181),
-	    arrayIncludesWith = __webpack_require__(182),
-	    cacheHas = __webpack_require__(98),
-	    createSet = __webpack_require__(539),
-	    setToArray = __webpack_require__(100);
->>>>>>> feature: ckeditor toolbar
 
 	/** Used as the size to enable large array optimizations. */
 	var LARGE_ARRAY_SIZE = 200;
@@ -16318,11 +15930,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _KeyCode2 = _interopRequireDefault(_KeyCode);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _createChainedFunction = __webpack_require__(615);
-=======
-	var _createChainedFunction = __webpack_require__(583);
->>>>>>> feature: ckeditor toolbar
+	var _createChainedFunction = __webpack_require__(614);
 
 	var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
@@ -16336,11 +15944,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _util = __webpack_require__(138);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _DOMWrap = __webpack_require__(591);
-=======
-	var _DOMWrap = __webpack_require__(573);
->>>>>>> feature: ckeditor toolbar
+	var _DOMWrap = __webpack_require__(590);
 
 	var _DOMWrap2 = _interopRequireDefault(_DOMWrap);
 
@@ -16575,646 +16179,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  renderRoot: function renderRoot(props) {
 	    var _classes;
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-=======
-
-	    this.instanceArray = [];
-	    var classes = (_classes = {}, (0, _defineProperty3["default"])(_classes, props.prefixCls, 1), (0, _defineProperty3["default"])(_classes, props.prefixCls + '-' + props.mode, 1), (0, _defineProperty3["default"])(_classes, props.className, !!props.className), _classes);
-	    var domProps = {
-	      className: (0, _classnames2["default"])(classes),
-	      role: 'menu',
-	      'aria-activedescendant': ''
-	    };
-	    if (props.id) {
-	      domProps.id = props.id;
-	    }
-	    if (props.focusable) {
-	      domProps.tabIndex = '0';
-	      domProps.onKeyDown = this.onKeyDown;
-	    }
-	    return (
-	      // ESLint is not smart enough to know that the type of `children` was checked.
-	      /* eslint-disable */
-	      _react2["default"].createElement(
-	        _DOMWrap2["default"],
-	        (0, _extends3["default"])({
-	          style: props.style,
-	          tag: 'ul',
-	          hiddenClassName: props.prefixCls + '-hidden',
-	          visible: props.visible
-	        }, domProps),
-	        _react2["default"].Children.map(props.children, this.renderMenuItem)
-	      )
-	      /*eslint-enable */
-
-	    );
-	  },
-	  step: function step(direction) {
-	    var children = this.getFlatInstanceArray();
-	    var activeKey = this.state.activeKey;
-	    var len = children.length;
-	    if (!len) {
-	      return null;
-	    }
-	    if (direction < 0) {
-	      children = children.concat().reverse();
-	    }
-	    // find current activeIndex
-	    var activeIndex = -1;
-	    children.every(function (c, ci) {
-	      if (c && c.props.eventKey === activeKey) {
-	        activeIndex = ci;
-	        return false;
-	      }
-	      return true;
-	    });
-	    if (!this.props.defaultActiveFirst && activeIndex !== -1) {
-	      if (allDisabled(children.slice(activeIndex, len - 1))) {
-	        return undefined;
-	      }
-	    }
-	    var start = (activeIndex + 1) % len;
-	    var i = start;
-	    for (;;) {
-	      var child = children[i];
-	      if (!child || child.props.disabled) {
-	        i = (i + 1 + len) % len;
-	        // complete a loop
-	        if (i === start) {
-	          return null;
-	        }
-	      } else {
-	        return child;
-	      }
-	    }
-	  }
-	};
-
-	exports["default"] = MenuMixin;
-	module.exports = exports['default'];
-
-/***/ },
-/* 348 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.Divider = exports.ItemGroup = exports.MenuItemGroup = exports.MenuItem = exports.Item = exports.SubMenu = undefined;
-
-	var _Menu = __webpack_require__(575);
-
-	var _Menu2 = _interopRequireDefault(_Menu);
-
-	var _SubMenu = __webpack_require__(578);
-
-	var _SubMenu2 = _interopRequireDefault(_SubMenu);
-
-	var _MenuItem = __webpack_require__(576);
-
-	var _MenuItem2 = _interopRequireDefault(_MenuItem);
-
-	var _MenuItemGroup = __webpack_require__(577);
-
-	var _MenuItemGroup2 = _interopRequireDefault(_MenuItemGroup);
-
-	var _Divider = __webpack_require__(574);
-
-	var _Divider2 = _interopRequireDefault(_Divider);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-	exports.SubMenu = _SubMenu2["default"];
-	exports.Item = _MenuItem2["default"];
-	exports.MenuItem = _MenuItem2["default"];
-	exports.MenuItemGroup = _MenuItemGroup2["default"];
-	exports.ItemGroup = _MenuItemGroup2["default"];
-	exports.Divider = _Divider2["default"];
-	exports["default"] = _Menu2["default"];
-
-/***/ },
-/* 349 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _objectWithoutProperties2 = __webpack_require__(241);
-
-	var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-	var LazyRenderBox = _react2["default"].createClass({
-	  displayName: 'LazyRenderBox',
-
-	  propTypes: {
-	    children: _react.PropTypes.any,
-	    className: _react.PropTypes.string,
-	    visible: _react.PropTypes.bool,
-	    hiddenClassName: _react.PropTypes.string
-	  },
-	  shouldComponentUpdate: function shouldComponentUpdate(nextProps) {
-	    return nextProps.hiddenClassName || nextProps.visible;
-	  },
-	  render: function render() {
-	    var _props = this.props,
-	        hiddenClassName = _props.hiddenClassName,
-	        visible = _props.visible,
-	        props = (0, _objectWithoutProperties3["default"])(_props, ['hiddenClassName', 'visible']);
-
-
-	    if (hiddenClassName || _react2["default"].Children.count(props.children) > 1) {
-	      if (!visible && hiddenClassName) {
-	        props.className += ' ' + hiddenClassName;
-	      }
-	      return _react2["default"].createElement('div', props);
-	    }
-
-	    return _react2["default"].Children.only(props.children);
-	  }
-	});
-
-	exports["default"] = LazyRenderBox;
-	module.exports = exports['default'];
-
-/***/ },
-/* 350 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports["default"] = addEventListenerWrap;
-
-	var _addDomEventListener = __webpack_require__(215);
-
-	var _addDomEventListener2 = _interopRequireDefault(_addDomEventListener);
-
-	var _reactDom = __webpack_require__(17);
-
-	var _reactDom2 = _interopRequireDefault(_reactDom);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-	function addEventListenerWrap(target, eventType, cb) {
-	  /* eslint camelcase: 2 */
-	  var callback = _reactDom2["default"].unstable_batchedUpdates ? function run(e) {
-	    _reactDom2["default"].unstable_batchedUpdates(cb, e);
-	  } : cb;
-	  return (0, _addDomEventListener2["default"])(target, eventType, callback);
-	}
-	module.exports = exports['default'];
-
-/***/ },
-/* 351 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	/**
-	 * @ignore
-	 * some key-codes definition and utils from closure-library
-	 * @author yiminghe@gmail.com
-	 */
-
-	var KeyCode = {
-	  /**
-	   * MAC_ENTER
-	   */
-	  MAC_ENTER: 3,
-	  /**
-	   * BACKSPACE
-	   */
-	  BACKSPACE: 8,
-	  /**
-	   * TAB
-	   */
-	  TAB: 9,
-	  /**
-	   * NUMLOCK on FF/Safari Mac
-	   */
-	  NUM_CENTER: 12, // NUMLOCK on FF/Safari Mac
-	  /**
-	   * ENTER
-	   */
-	  ENTER: 13,
-	  /**
-	   * SHIFT
-	   */
-	  SHIFT: 16,
-	  /**
-	   * CTRL
-	   */
-	  CTRL: 17,
-	  /**
-	   * ALT
-	   */
-	  ALT: 18,
-	  /**
-	   * PAUSE
-	   */
-	  PAUSE: 19,
-	  /**
-	   * CAPS_LOCK
-	   */
-	  CAPS_LOCK: 20,
-	  /**
-	   * ESC
-	   */
-	  ESC: 27,
-	  /**
-	   * SPACE
-	   */
-	  SPACE: 32,
-	  /**
-	   * PAGE_UP
-	   */
-	  PAGE_UP: 33, // also NUM_NORTH_EAST
-	  /**
-	   * PAGE_DOWN
-	   */
-	  PAGE_DOWN: 34, // also NUM_SOUTH_EAST
-	  /**
-	   * END
-	   */
-	  END: 35, // also NUM_SOUTH_WEST
-	  /**
-	   * HOME
-	   */
-	  HOME: 36, // also NUM_NORTH_WEST
-	  /**
-	   * LEFT
-	   */
-	  LEFT: 37, // also NUM_WEST
-	  /**
-	   * UP
-	   */
-	  UP: 38, // also NUM_NORTH
-	  /**
-	   * RIGHT
-	   */
-	  RIGHT: 39, // also NUM_EAST
-	  /**
-	   * DOWN
-	   */
-	  DOWN: 40, // also NUM_SOUTH
-	  /**
-	   * PRINT_SCREEN
-	   */
-	  PRINT_SCREEN: 44,
-	  /**
-	   * INSERT
-	   */
-	  INSERT: 45, // also NUM_INSERT
-	  /**
-	   * DELETE
-	   */
-	  DELETE: 46, // also NUM_DELETE
-	  /**
-	   * ZERO
-	   */
-	  ZERO: 48,
-	  /**
-	   * ONE
-	   */
-	  ONE: 49,
-	  /**
-	   * TWO
-	   */
-	  TWO: 50,
-	  /**
-	   * THREE
-	   */
-	  THREE: 51,
-	  /**
-	   * FOUR
-	   */
-	  FOUR: 52,
-	  /**
-	   * FIVE
-	   */
-	  FIVE: 53,
-	  /**
-	   * SIX
-	   */
-	  SIX: 54,
-	  /**
-	   * SEVEN
-	   */
-	  SEVEN: 55,
-	  /**
-	   * EIGHT
-	   */
-	  EIGHT: 56,
-	  /**
-	   * NINE
-	   */
-	  NINE: 57,
-	  /**
-	   * QUESTION_MARK
-	   */
-	  QUESTION_MARK: 63, // needs localization
-	  /**
-	   * A
-	   */
-	  A: 65,
-	  /**
-	   * B
-	   */
-	  B: 66,
-	  /**
-	   * C
-	   */
-	  C: 67,
-	  /**
-	   * D
-	   */
-	  D: 68,
-	  /**
-	   * E
-	   */
-	  E: 69,
-	  /**
-	   * F
-	   */
-	  F: 70,
-	  /**
-	   * G
-	   */
-	  G: 71,
-	  /**
-	   * H
-	   */
-	  H: 72,
-	  /**
-	   * I
-	   */
-	  I: 73,
-	  /**
-	   * J
-	   */
-	  J: 74,
-	  /**
-	   * K
-	   */
-	  K: 75,
-	  /**
-	   * L
-	   */
-	  L: 76,
-	  /**
-	   * M
-	   */
-	  M: 77,
-	  /**
-	   * N
-	   */
-	  N: 78,
-	  /**
-	   * O
-	   */
-	  O: 79,
-	  /**
-	   * P
-	   */
-	  P: 80,
-	  /**
-	   * Q
-	   */
-	  Q: 81,
-	  /**
-	   * R
-	   */
-	  R: 82,
-	  /**
-	   * S
-	   */
-	  S: 83,
-	  /**
-	   * T
-	   */
-	  T: 84,
-	  /**
-	   * U
-	   */
-	  U: 85,
-	  /**
-	   * V
-	   */
-	  V: 86,
-	  /**
-	   * W
-	   */
-	  W: 87,
-	  /**
-	   * X
-	   */
-	  X: 88,
-	  /**
-	   * Y
-	   */
-	  Y: 89,
-	  /**
-	   * Z
-	   */
-	  Z: 90,
-	  /**
-	   * META
-	   */
-	  META: 91, // WIN_KEY_LEFT
-	  /**
-	   * WIN_KEY_RIGHT
-	   */
-	  WIN_KEY_RIGHT: 92,
-	  /**
-	   * CONTEXT_MENU
-	   */
-	  CONTEXT_MENU: 93,
-	  /**
-	   * NUM_ZERO
-	   */
-	  NUM_ZERO: 96,
-	  /**
-	   * NUM_ONE
-	   */
-	  NUM_ONE: 97,
-	  /**
-	   * NUM_TWO
-	   */
-	  NUM_TWO: 98,
-	  /**
-	   * NUM_THREE
-	   */
-	  NUM_THREE: 99,
-	  /**
-	   * NUM_FOUR
-	   */
-	  NUM_FOUR: 100,
-	  /**
-	   * NUM_FIVE
-	   */
-	  NUM_FIVE: 101,
-	  /**
-	   * NUM_SIX
-	   */
-	  NUM_SIX: 102,
-	  /**
-	   * NUM_SEVEN
-	   */
-	  NUM_SEVEN: 103,
-	  /**
-	   * NUM_EIGHT
-	   */
-	  NUM_EIGHT: 104,
-	  /**
-	   * NUM_NINE
-	   */
-	  NUM_NINE: 105,
-	  /**
-	   * NUM_MULTIPLY
-	   */
-	  NUM_MULTIPLY: 106,
-	  /**
-	   * NUM_PLUS
-	   */
-	  NUM_PLUS: 107,
-	  /**
-	   * NUM_MINUS
-	   */
-	  NUM_MINUS: 109,
-	  /**
-	   * NUM_PERIOD
-	   */
-	  NUM_PERIOD: 110,
-	  /**
-	   * NUM_DIVISION
-	   */
-	  NUM_DIVISION: 111,
-	  /**
-	   * F1
-	   */
-	  F1: 112,
-	  /**
-	   * F2
-	   */
-	  F2: 113,
-	  /**
-	   * F3
-	   */
-	  F3: 114,
-	  /**
-	   * F4
-	   */
-	  F4: 115,
-	  /**
-	   * F5
-	   */
-	  F5: 116,
-	  /**
-	   * F6
-	   */
-	  F6: 117,
-	  /**
-	   * F7
-	   */
-	  F7: 118,
-	  /**
-	   * F8
-	   */
-	  F8: 119,
-	  /**
-	   * F9
-	   */
-	  F9: 120,
-	  /**
-	   * F10
-	   */
-	  F10: 121,
-	  /**
-	   * F11
-	   */
-	  F11: 122,
-	  /**
-	   * F12
-	   */
-	  F12: 123,
-	  /**
-	   * NUMLOCK
-	   */
-	  NUMLOCK: 144,
-	  /**
-	   * SEMICOLON
-	   */
-	  SEMICOLON: 186, // needs localization
-	  /**
-	   * DASH
-	   */
-	  DASH: 189, // needs localization
-	  /**
-	   * EQUALS
-	   */
-	  EQUALS: 187, // needs localization
-	  /**
-	   * COMMA
-	   */
-	  COMMA: 188, // needs localization
-	  /**
-	   * PERIOD
-	   */
-	  PERIOD: 190, // needs localization
-	  /**
-	   * SLASH
-	   */
-	  SLASH: 191, // needs localization
-	  /**
-	   * APOSTROPHE
-	   */
-	  APOSTROPHE: 192, // needs localization
-	  /**
-	   * SINGLE_QUOTE
-	   */
-	  SINGLE_QUOTE: 222, // needs localization
-	  /**
-	   * OPEN_SQUARE_BRACKET
-	   */
-	  OPEN_SQUARE_BRACKET: 219, // needs localization
-	  /**
-	   * BACKSLASH
-	   */
-	  BACKSLASH: 220, // needs localization
-	  /**
-	   * CLOSE_SQUARE_BRACKET
-	   */
-	  CLOSE_SQUARE_BRACKET: 221, // needs localization
-	  /**
-	   * WIN_KEY
-	   */
-	  WIN_KEY: 224,
-	  /**
-	   * MAC_FF_META
-	   */
-	  MAC_FF_META: 224, // Firefox (Gecko) fires this for the meta key instead of 91
-	  /**
-	   * WIN_IME
-	   */
-	  WIN_IME: 229
-	};
->>>>>>> feature: ckeditor toolbar
 
 	    this.instanceArray = [];
 	    var classes = (_classes = {}, (0, _defineProperty3["default"])(_classes, props.prefixCls, 1), (0, _defineProperty3["default"])(_classes, props.prefixCls + '-' + props.mode, 1), (0, _defineProperty3["default"])(_classes, props.className, !!props.className), _classes);
@@ -17302,23 +16266,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.Divider = exports.ItemGroup = exports.MenuItemGroup = exports.MenuItem = exports.Item = exports.SubMenu = undefined;
 
-	var _Menu = __webpack_require__(593);
+	var _Menu = __webpack_require__(592);
 
 	var _Menu2 = _interopRequireDefault(_Menu);
 
-	var _SubMenu = __webpack_require__(596);
+	var _SubMenu = __webpack_require__(595);
 
 	var _SubMenu2 = _interopRequireDefault(_SubMenu);
 
-	var _MenuItem = __webpack_require__(594);
+	var _MenuItem = __webpack_require__(593);
 
 	var _MenuItem2 = _interopRequireDefault(_MenuItem);
 
-	var _MenuItemGroup = __webpack_require__(595);
+	var _MenuItemGroup = __webpack_require__(594);
 
 	var _MenuItemGroup2 = _interopRequireDefault(_MenuItemGroup);
 
-	var _Divider = __webpack_require__(592);
+	var _Divider = __webpack_require__(591);
 
 	var _Divider2 = _interopRequireDefault(_Divider);
 
@@ -17354,7 +16318,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-	var _get2 = __webpack_require__(439);
+	var _get2 = __webpack_require__(438);
 
 	var _get3 = _interopRequireDefault(_get2);
 
@@ -17655,11 +16619,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.isSafari = exports.isFirefox = undefined;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _memoize = __webpack_require__(574);
-=======
-	var _memoize = __webpack_require__(557);
->>>>>>> feature: ckeditor toolbar
+	var _memoize = __webpack_require__(573);
 
 	var _memoize2 = _interopRequireDefault(_memoize);
 
@@ -17696,15 +16656,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var _propTypes = __webpack_require__(10);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _dndCore = __webpack_require__(494);
-=======
-	var _dndCore = __webpack_require__(476);
->>>>>>> feature: ckeditor toolbar
+	var _dndCore = __webpack_require__(493);
 
 	var _invariant = __webpack_require__(22);
 
@@ -17850,15 +16806,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var _propTypes = __webpack_require__(10);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _disposables = __webpack_require__(487);
-=======
-	var _disposables = __webpack_require__(469);
->>>>>>> feature: ckeditor toolbar
+	var _disposables = __webpack_require__(486);
 
 	var _isPlainObject = __webpack_require__(58);
 
@@ -18137,11 +17089,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react = __webpack_require__(1);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _cloneWithRef = __webpack_require__(638);
-=======
-	var _cloneWithRef = __webpack_require__(619);
->>>>>>> feature: ckeditor toolbar
+	var _cloneWithRef = __webpack_require__(637);
 
 	var _cloneWithRef2 = _interopRequireDefault(_cloneWithRef);
 
@@ -18258,11 +17206,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(9);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	__webpack_require__(509);
-=======
-	__webpack_require__(492);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(508);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -18318,11 +17262,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = rows;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _cloneDeep2 = __webpack_require__(570);
-=======
-	var _cloneDeep2 = __webpack_require__(553);
->>>>>>> feature: ckeditor toolbar
+	var _cloneDeep2 = __webpack_require__(569);
 
 	var _cloneDeep3 = _interopRequireDefault(_cloneDeep2);
 
@@ -18532,11 +17472,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(9);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	__webpack_require__(525);
-=======
-	__webpack_require__(508);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(524);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -18586,121 +17522,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	// removed by extract-text-webpack-plugin
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
 /* 386 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 377 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.utils = exports.effects = exports.CANCEL = exports.delay = exports.throttle = exports.takeLatest = exports.takeEvery = exports.buffers = exports.channel = exports.eventChannel = exports.END = exports.runSaga = undefined;
-
-	var _runSaga = __webpack_require__(622);
-
-	Object.defineProperty(exports, 'runSaga', {
-	  enumerable: true,
-	  get: function get() {
-	    return _runSaga.runSaga;
-	  }
-	});
-
-	var _channel = __webpack_require__(102);
-
-	Object.defineProperty(exports, 'END', {
-	  enumerable: true,
-	  get: function get() {
-	    return _channel.END;
-	  }
-	});
-	Object.defineProperty(exports, 'eventChannel', {
-	  enumerable: true,
-	  get: function get() {
-	    return _channel.eventChannel;
-	  }
-	});
-	Object.defineProperty(exports, 'channel', {
-	  enumerable: true,
-	  get: function get() {
-	    return _channel.channel;
-	  }
-	});
-
-	var _buffers = __webpack_require__(75);
-
-	Object.defineProperty(exports, 'buffers', {
-	  enumerable: true,
-	  get: function get() {
-	    return _buffers.buffers;
-	  }
-	});
-
-	var _sagaHelpers = __webpack_require__(204);
-
-	Object.defineProperty(exports, 'takeEvery', {
-	  enumerable: true,
-	  get: function get() {
-	    return _sagaHelpers.takeEvery;
-	  }
-	});
-	Object.defineProperty(exports, 'takeLatest', {
-	  enumerable: true,
-	  get: function get() {
-	    return _sagaHelpers.takeLatest;
-	  }
-	});
-	Object.defineProperty(exports, 'throttle', {
-	  enumerable: true,
-	  get: function get() {
-	    return _sagaHelpers.throttle;
-	  }
-	});
-
-	var _utils = __webpack_require__(29);
-
-	Object.defineProperty(exports, 'delay', {
-	  enumerable: true,
-	  get: function get() {
-	    return _utils.delay;
-	  }
-	});
-	Object.defineProperty(exports, 'CANCEL', {
-	  enumerable: true,
-	  get: function get() {
-	    return _utils.CANCEL;
-	  }
-	});
-
-	var _middleware = __webpack_require__(621);
-
-	var _middleware2 = _interopRequireDefault(_middleware);
-
-	var _effects = __webpack_require__(202);
-
-	var effects = _interopRequireWildcard(_effects);
-
-	var _utils2 = __webpack_require__(623);
-
-	var utils = _interopRequireWildcard(_utils2);
-
-	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	exports.default = _middleware2.default;
-	exports.effects = effects;
-	exports.utils = utils;
-
-/***/ },
-/* 378 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	"use strict";
 
@@ -19408,11 +18232,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _Scroller2 = _interopRequireDefault(_Scroller);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	__webpack_require__(510);
-=======
-	__webpack_require__(493);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(509);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19571,11 +18391,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(9);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	__webpack_require__(515);
-=======
-	__webpack_require__(498);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(514);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19745,11 +18561,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react = __webpack_require__(1);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _reactRouter = __webpack_require__(888);
-=======
-	var _reactRouter = __webpack_require__(869);
->>>>>>> feature: ckeditor toolbar
+	var _reactRouter = __webpack_require__(887);
 
 	var _reactRedux = __webpack_require__(15);
 
@@ -19817,11 +18629,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(9);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	__webpack_require__(516);
-=======
-	__webpack_require__(499);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(515);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19901,11 +18709,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _Toggler2 = _interopRequireDefault(_Toggler);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	__webpack_require__(517);
-=======
-	__webpack_require__(500);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(516);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -20099,11 +18903,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _inherits3 = _interopRequireDefault(_inherits2);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _freeze = __webpack_require__(437);
-=======
-	var _freeze = __webpack_require__(424);
->>>>>>> feature: ckeditor toolbar
+	var _freeze = __webpack_require__(436);
 
 	var _freeze2 = _interopRequireDefault(_freeze);
 
@@ -20111,11 +18911,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _reactDropzone = __webpack_require__(639);
-=======
-	var _reactDropzone = __webpack_require__(620);
->>>>>>> feature: ckeditor toolbar
+	var _reactDropzone = __webpack_require__(638);
 
 	var _reactDropzone2 = _interopRequireDefault(_reactDropzone);
 
@@ -20125,7 +18921,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _isEqual3 = _interopRequireDefault(_isEqual2);
 
-	var _pluralizeRu = __webpack_require__(577);
+	var _pluralizeRu = __webpack_require__(576);
 
 	var _pluralizeRu2 = _interopRequireDefault(_pluralizeRu);
 
@@ -20143,11 +18939,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(9);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	__webpack_require__(519);
-=======
-	__webpack_require__(502);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(518);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -20616,11 +19408,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ComboSelect2 = _interopRequireDefault(_ComboSelect);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	__webpack_require__(520);
-=======
-	__webpack_require__(503);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(519);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -21470,11 +20258,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(9);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	__webpack_require__(522);
-=======
-	__webpack_require__(504);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(521);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22252,11 +21036,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _isEqual3 = _interopRequireDefault(_isEqual2);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	__webpack_require__(508);
-=======
-	__webpack_require__(491);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(507);
 
 	var _Text = __webpack_require__(417);
 
@@ -23133,11 +21913,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils = __webpack_require__(9);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	__webpack_require__(524);
-=======
-	__webpack_require__(507);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(523);
 
 	var _actions = __webpack_require__(14);
 
@@ -23319,21 +22095,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _isEqual3 = _interopRequireDefault(_isEqual2);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _validation = __webpack_require__(434);
+	var _validation = __webpack_require__(433);
 
 	var _validation2 = _interopRequireDefault(_validation);
 
-	var _ckeditorToolbar = __webpack_require__(418);
-
-	var _ckeditorToolbar2 = _interopRequireDefault(_ckeditorToolbar);
-
-=======
-	var _validation = __webpack_require__(421);
-
-	var _validation2 = _interopRequireDefault(_validation);
-
->>>>>>> feature: ckeditor toolbar
 	var _utils = __webpack_require__(9);
 
 	var _actions = __webpack_require__(14);
@@ -23640,26 +22405,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(TextCell);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
 /* 418 */
-/***/ (function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.default = [['Source', '-', 'Preview', '-', 'Templates'], ['Cut', 'Copy', 'Paste', 'PasteText'], ['Undo', 'Redo', '-', 'Find', 'Replace', '-', 'SelectAll', 'RemoveFormat'], ['Bold', 'Italic', 'Underline', '-', 'Subscript', 'Superscript'], '/', ['NumberedList', 'BulletedList', 'Outdent', 'Indent', 'Blockquote'], ['JustifyLeft', 'JustifyCenter', 'JustifyRight'], ['Link', 'Unlink'], ['Image', 'Table'], ['FontSize'], ['TextColor', 'BGColor'], ['ShowBlocks']];
-
-/***/ }),
-/* 419 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 408 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -23728,15 +22476,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  isLoaded: false
 	};
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 420 */
+/* 419 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 409 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -23827,15 +22569,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	};
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 421 */
+/* 420 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 410 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -23965,15 +22701,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 422 */
+/* 421 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 411 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -24054,15 +22784,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	};
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 423 */
+/* 422 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 412 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -24150,15 +22874,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, _marked[0], this, [[0, 13]]);
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 424 */
+/* 423 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 413 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -24358,15 +23076,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = (0, _import.connect)(mapStateToProps)(ContainerTree);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 425 */
+/* 424 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 414 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -24398,11 +23110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _inherits3 = _interopRequireDefault(_inherits2);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _TreeItem = __webpack_require__(426);
-=======
-	var _TreeItem = __webpack_require__(415);
->>>>>>> feature: ckeditor toolbar
+	var _TreeItem = __webpack_require__(425);
 
 	var _TreeItem2 = _interopRequireDefault(_TreeItem);
 
@@ -24578,15 +23286,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return { connectDropTarget: connect.dropTarget() };
 	})(Tree);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 426 */
+/* 425 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 415 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -24883,15 +23585,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	})(TreeItem));
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 427 */
+/* 426 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 416 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -25070,15 +23766,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	})(TreeLayer);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 428 */
+/* 427 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 417 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -25390,15 +24080,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 429 */
+/* 428 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 418 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -25584,15 +24268,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, _marked[2], this, [[0, 9]]);
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 430 */
+/* 429 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 419 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -25690,15 +24368,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = (0, _reactRedux.connect)(mapStateToProps)(ContainerDialog);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 431 */
+/* 430 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 420 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -25757,9 +24429,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	};
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 432 */
+/* 431 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -25860,7 +24531,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ }),
-/* 433 */
+/* 432 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -26386,13 +25057,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ }),
-/* 434 */
+/* 433 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 421 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -26431,21 +25097,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
+/***/ }),
+/* 434 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	module.exports = { "default": __webpack_require__(439), __esModule: true };
+
 /***/ }),
 /* 435 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 422 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = { "default": __webpack_require__(425), __esModule: true };
-
-/***/ },
-/* 423 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	module.exports = { "default": __webpack_require__(440), __esModule: true };
 
@@ -26459,30 +25119,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 437 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	module.exports = { "default": __webpack_require__(442), __esModule: true };
-=======
-	__webpack_require__(165);
-	__webpack_require__(435);
-	module.exports = __webpack_require__(13).Array.from;
->>>>>>> feature: ckeditor toolbar
 
 /***/ }),
 /* 438 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	module.exports = { "default": __webpack_require__(443), __esModule: true };
-=======
-	__webpack_require__(436);
-	module.exports = __webpack_require__(13).Object.assign;
->>>>>>> feature: ckeditor toolbar
-
-/***/ }),
-/* 439 */
-/***/ (function(module, exports, __webpack_require__) {
-
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	"use strict";
 
 	exports.__esModule = true;
@@ -26491,7 +25133,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-	var _getOwnPropertyDescriptor = __webpack_require__(438);
+	var _getOwnPropertyDescriptor = __webpack_require__(437);
 
 	var _getOwnPropertyDescriptor2 = _interopRequireDefault(_getOwnPropertyDescriptor);
 
@@ -26523,48 +25165,40 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ }),
-/* 440 */
+/* 439 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	__webpack_require__(170);
-	__webpack_require__(451);
+	__webpack_require__(450);
 	module.exports = __webpack_require__(12).Array.from;
+
+/***/ }),
+/* 440 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	__webpack_require__(451);
+	module.exports = __webpack_require__(12).Object.assign;
 
 /***/ }),
 /* 441 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	__webpack_require__(452);
-	module.exports = __webpack_require__(12).Object.assign;
+	module.exports = __webpack_require__(12).Object.freeze;
 
 /***/ }),
 /* 442 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	__webpack_require__(453);
-	module.exports = __webpack_require__(12).Object.freeze;
-
-/***/ }),
-/* 443 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	__webpack_require__(454);
 	var $Object = __webpack_require__(12).Object;
 	module.exports = function getOwnPropertyDescriptor(it, key){
 	  return $Object.getOwnPropertyDescriptor(it, key);
 	};
 
 /***/ }),
-/* 444 */
+/* 443 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-	__webpack_require__(437);
-	module.exports = __webpack_require__(13).Object.freeze;
-
-/***/ },
-/* 428 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	// getting tag from 19.1.3.6 Object.prototype.toString()
 	var cof = __webpack_require__(113)
@@ -26590,15 +25224,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    : (B = cof(O)) == 'Object' && typeof O.callee == 'function' ? 'Arguments' : B;
 	};
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 445 */
+/* 444 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 429 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 	var $defineProperty = __webpack_require__(26)
@@ -26609,15 +25237,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  else object[index] = value;
 	};
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 446 */
+/* 445 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 430 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	// check on default Array iterator
 	var Iterators  = __webpack_require__(55)
@@ -26628,15 +25250,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return it !== undefined && (Iterators.Array === it || ArrayProto[ITERATOR] === it);
 	};
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 447 */
+/* 446 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 431 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	// call something on iterator step with safe closing on error
 	var anObject = __webpack_require__(43);
@@ -26651,15 +25267,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	};
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 448 */
+/* 447 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 432 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var ITERATOR     = __webpack_require__(21)('iterator')
 	  , SAFE_CLOSING = false;
@@ -26683,15 +25293,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return safe;
 	};
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 449 */
+/* 448 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 433 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 	// 19.1.2.1 Object.assign(target, source, ...)
@@ -26727,63 +25331,34 @@ return /******/ (function(modules) { // webpackBootstrap
 	  } return T;
 	} : $assign;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 450 */
+/* 449 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var classof   = __webpack_require__(444)
+	var classof   = __webpack_require__(443)
 	  , ITERATOR  = __webpack_require__(21)('iterator')
 	  , Iterators = __webpack_require__(55);
 	module.exports = __webpack_require__(12).getIteratorMethod = function(it){
-=======
-/***/ },
-/* 434 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var classof   = __webpack_require__(428)
-	  , ITERATOR  = __webpack_require__(20)('iterator')
-	  , Iterators = __webpack_require__(50);
-	module.exports = __webpack_require__(13).getIteratorMethod = function(it){
->>>>>>> feature: ckeditor toolbar
 	  if(it != undefined)return it[ITERATOR]
 	    || it['@@iterator']
 	    || Iterators[classof(it)];
 	};
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 451 */
+/* 450 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	var ctx            = __webpack_require__(114)
 	  , $export        = __webpack_require__(30)
 	  , toObject       = __webpack_require__(56)
-	  , call           = __webpack_require__(447)
-	  , isArrayIter    = __webpack_require__(446)
+	  , call           = __webpack_require__(446)
+	  , isArrayIter    = __webpack_require__(445)
 	  , toLength       = __webpack_require__(169)
-	  , createProperty = __webpack_require__(445)
-	  , getIterFn      = __webpack_require__(450);
+	  , createProperty = __webpack_require__(444)
+	  , getIterFn      = __webpack_require__(449);
 
-	$export($export.S + $export.F * !__webpack_require__(448)(function(iter){ Array.from(iter); }), 'Array', {
-=======
-/***/ },
-/* 435 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	var ctx            = __webpack_require__(107)
-	  , $export        = __webpack_require__(27)
-	  , toObject       = __webpack_require__(51)
-	  , call           = __webpack_require__(431)
-	  , isArrayIter    = __webpack_require__(430)
-	  , toLength       = __webpack_require__(164)
-	  , createProperty = __webpack_require__(429)
-	  , getIterFn      = __webpack_require__(434);
-
-	$export($export.S + $export.F * !__webpack_require__(432)(function(iter){ Array.from(iter); }), 'Array', {
->>>>>>> feature: ckeditor toolbar
+	$export($export.S + $export.F * !__webpack_require__(447)(function(iter){ Array.from(iter); }), 'Array', {
 	  // 22.1.2.1 Array.from(arrayLike, mapfn = undefined, thisArg = undefined)
 	  from: function from(arrayLike/*, mapfn = undefined, thisArg = undefined*/){
 	    var O       = toObject(arrayLike)
@@ -26812,32 +25387,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 452 */
+/* 451 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 436 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	// 19.1.3.1 Object.assign(target, source)
 	var $export = __webpack_require__(30);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	$export($export.S + $export.F, 'Object', {assign: __webpack_require__(449)});
+	$export($export.S + $export.F, 'Object', {assign: __webpack_require__(448)});
 
 /***/ }),
-/* 453 */
+/* 452 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-	$export($export.S + $export.F, 'Object', {assign: __webpack_require__(433)});
-
-/***/ },
-/* 437 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	// 19.1.2.5 Object.freeze(O)
 	var isObject = __webpack_require__(45)
@@ -26849,9 +25410,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 454 */
+/* 453 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	// 19.1.2.6 Object.getOwnPropertyDescriptor(O, P)
@@ -26865,26 +25425,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ }),
-=======
-/***/ },
-/* 438 */,
-/* 439 */,
-/* 440 */,
-/* 441 */,
-/* 442 */,
-/* 443 */,
-/* 444 */,
-/* 445 */,
-/* 446 */,
-/* 447 */,
-/* 448 */,
-/* 449 */,
-/* 450 */,
-/* 451 */,
-/* 452 */,
-/* 453 */,
 /* 454 */,
->>>>>>> feature: ckeditor toolbar
 /* 455 */,
 /* 456 */,
 /* 457 */,
@@ -26894,7 +25435,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 461 */,
 /* 462 */,
 /* 463 */,
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /* 464 */,
 /* 465 */,
 /* 466 */,
@@ -26911,8 +25451,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 477 */,
 /* 478 */,
 /* 479 */,
-/* 480 */,
-/* 481 */
+/* 480 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
@@ -26929,7 +25468,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _assign = __webpack_require__(136);
 
-	var emptyObject = __webpack_require__(529);
+	var emptyObject = __webpack_require__(528);
 	var _invariant = __webpack_require__(292);
 
 	if (false) {
@@ -27642,12 +26181,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ }),
-/* 482 */
+/* 481 */
 /***/ (function(module, exports) {
-=======
-/* 464 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -27738,15 +26273,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = TransitionEvents;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 483 */
+/* 482 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 465 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -27756,11 +26285,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _Event = __webpack_require__(482);
-=======
-	var _Event = __webpack_require__(464);
->>>>>>> feature: ckeditor toolbar
+	var _Event = __webpack_require__(481);
 
 	var _Event2 = _interopRequireDefault(_Event);
 
@@ -27943,15 +26468,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = cssAnimation;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 484 */
+/* 483 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 466 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -28055,15 +26574,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = CompositeDisposable;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 485 */
+/* 484 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 467 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	"use strict";
 
@@ -28105,15 +26618,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = Disposable;
 	module.exports = exports["default"];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 486 */
+/* 485 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 468 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -28197,15 +26704,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = SerialDisposable;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 487 */
+/* 486 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 469 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -28219,45 +26720,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.isDisposable = _isDisposable3['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _Disposable2 = __webpack_require__(485);
-=======
-	var _Disposable2 = __webpack_require__(467);
->>>>>>> feature: ckeditor toolbar
+	var _Disposable2 = __webpack_require__(484);
 
 	var _Disposable3 = _interopRequireWildcard(_Disposable2);
 
 	exports.Disposable = _Disposable3['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _CompositeDisposable2 = __webpack_require__(484);
-=======
-	var _CompositeDisposable2 = __webpack_require__(466);
->>>>>>> feature: ckeditor toolbar
+	var _CompositeDisposable2 = __webpack_require__(483);
 
 	var _CompositeDisposable3 = _interopRequireWildcard(_CompositeDisposable2);
 
 	exports.CompositeDisposable = _CompositeDisposable3['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _SerialDisposable2 = __webpack_require__(486);
-=======
-	var _SerialDisposable2 = __webpack_require__(468);
->>>>>>> feature: ckeditor toolbar
+	var _SerialDisposable2 = __webpack_require__(485);
 
 	var _SerialDisposable3 = _interopRequireWildcard(_SerialDisposable2);
 
 	exports.SerialDisposable = _SerialDisposable3['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 488 */
+/* 487 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 470 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -28267,19 +26750,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _createStore = __webpack_require__(643);
+	var _createStore = __webpack_require__(642);
 
 	var _createStore2 = _interopRequireDefault(_createStore);
 
-	var _reducers = __webpack_require__(496);
-=======
-	var _createStore = __webpack_require__(624);
-
-	var _createStore2 = _interopRequireDefault(_createStore);
-
-	var _reducers = __webpack_require__(478);
->>>>>>> feature: ckeditor toolbar
+	var _reducers = __webpack_require__(495);
 
 	var _reducers2 = _interopRequireDefault(_reducers);
 
@@ -28287,11 +26762,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var dragDropActions = _interopRequireWildcard(_dragDrop);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _DragDropMonitor = __webpack_require__(489);
-=======
-	var _DragDropMonitor = __webpack_require__(471);
->>>>>>> feature: ckeditor toolbar
+	var _DragDropMonitor = __webpack_require__(488);
 
 	var _DragDropMonitor2 = _interopRequireDefault(_DragDropMonitor);
 
@@ -28384,15 +26855,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = DragDropManager;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 489 */
+/* 488 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 471 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -28414,11 +26879,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _matchesType2 = _interopRequireDefault(_matchesType);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _HandlerRegistry = __webpack_require__(492);
-=======
-	var _HandlerRegistry = __webpack_require__(474);
->>>>>>> feature: ckeditor toolbar
+	var _HandlerRegistry = __webpack_require__(491);
 
 	var _HandlerRegistry2 = _interopRequireDefault(_HandlerRegistry);
 
@@ -28630,15 +27091,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = DragDropMonitor;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 490 */
+/* 489 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 472 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	"use strict";
 
@@ -28675,15 +27130,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = DragSource;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 491 */
+/* 490 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 473 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	"use strict";
 
@@ -28718,15 +27167,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = DropTarget;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 492 */
+/* 491 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 474 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -28752,11 +27195,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _registry = __webpack_require__(129);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _getNextUniqueId = __webpack_require__(499);
-=======
-	var _getNextUniqueId = __webpack_require__(481);
->>>>>>> feature: ckeditor toolbar
+	var _getNextUniqueId = __webpack_require__(498);
 
 	var _getNextUniqueId2 = _interopRequireDefault(_getNextUniqueId);
 
@@ -28956,15 +27395,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = HandlerRegistry;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 493 */
+/* 492 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 475 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -29050,15 +27483,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return new TestBackend(manager);
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 494 */
+/* 493 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 476 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -29066,11 +27493,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _DragDropManager = __webpack_require__(488);
-=======
-	var _DragDropManager = __webpack_require__(470);
->>>>>>> feature: ckeditor toolbar
+	var _DragDropManager = __webpack_require__(487);
 
 	Object.defineProperty(exports, 'DragDropManager', {
 	  enumerable: true,
@@ -29079,11 +27502,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _DragSource = __webpack_require__(490);
-=======
-	var _DragSource = __webpack_require__(472);
->>>>>>> feature: ckeditor toolbar
+	var _DragSource = __webpack_require__(489);
 
 	Object.defineProperty(exports, 'DragSource', {
 	  enumerable: true,
@@ -29092,11 +27511,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _DropTarget = __webpack_require__(491);
-=======
-	var _DropTarget = __webpack_require__(473);
->>>>>>> feature: ckeditor toolbar
+	var _DropTarget = __webpack_require__(490);
 
 	Object.defineProperty(exports, 'DropTarget', {
 	  enumerable: true,
@@ -29105,11 +27520,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _createTestBackend = __webpack_require__(493);
-=======
-	var _createTestBackend = __webpack_require__(475);
->>>>>>> feature: ckeditor toolbar
+	var _createTestBackend = __webpack_require__(492);
 
 	Object.defineProperty(exports, 'createTestBackend', {
 	  enumerable: true,
@@ -29120,15 +27531,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 495 */
+/* 494 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 477 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -29210,15 +27615,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 496 */
+/* 495 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 478 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -29231,19 +27630,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _dragOffset2 = _interopRequireDefault(_dragOffset);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _dragOperation = __webpack_require__(495);
+	var _dragOperation = __webpack_require__(494);
 
 	var _dragOperation2 = _interopRequireDefault(_dragOperation);
 
-	var _refCount = __webpack_require__(497);
-=======
-	var _dragOperation = __webpack_require__(477);
-
-	var _dragOperation2 = _interopRequireDefault(_dragOperation);
-
-	var _refCount = __webpack_require__(479);
->>>>>>> feature: ckeditor toolbar
+	var _refCount = __webpack_require__(496);
 
 	var _refCount2 = _interopRequireDefault(_refCount);
 
@@ -29251,11 +27642,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _dirtyHandlerIds2 = _interopRequireDefault(_dirtyHandlerIds);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _stateId = __webpack_require__(498);
-=======
-	var _stateId = __webpack_require__(480);
->>>>>>> feature: ckeditor toolbar
+	var _stateId = __webpack_require__(497);
 
 	var _stateId2 = _interopRequireDefault(_stateId);
 
@@ -29274,15 +27661,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 497 */
+/* 496 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 479 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -29309,15 +27690,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 498 */
+/* 497 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 480 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	"use strict";
 
@@ -29331,15 +27706,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return state + 1;
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 499 */
+/* 498 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 481 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	"use strict";
 
@@ -29353,15 +27722,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return nextUniqueId++;
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 500 */
+/* 499 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 482 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -29413,70 +27776,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    pos.top = Math.max(yRect.bottom - size.height, yRect.top);
 	  }
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	  return _utils2['default'].mix(pos, size);
-=======
-	  return _utils2["default"].mix(pos, size);
-	}
-
-	exports["default"] = adjustForViewport;
-	module.exports = exports['default'];
-
-/***/ },
-/* 483 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	/**
-	 * 获取 node 上的 align 对齐点 相对于页面的坐标
-	 */
-
-	function getAlignOffset(region, align) {
-	  var V = align.charAt(0);
-	  var H = align.charAt(1);
-	  var w = region.width;
-	  var h = region.height;
-	  var x = void 0;
-	  var y = void 0;
-
-	  x = region.left;
-	  y = region.top;
-
-	  if (V === 'c') {
-	    y += h / 2;
-	  } else if (V === 'b') {
-	    y += h;
-	  }
-
-	  if (H === 'c') {
-	    x += w / 2;
-	  } else if (H === 'r') {
-	    x += w;
-	  }
-
-	  return {
-	    left: x,
-	    top: y
-	  };
->>>>>>> feature: ckeditor toolbar
 	}
 
 	exports['default'] = adjustForViewport;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 501 */
+/* 500 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 484 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -29484,11 +27792,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var _getAlignOffset = __webpack_require__(287);
-=======
-	var _getAlignOffset = __webpack_require__(483);
->>>>>>> feature: ckeditor toolbar
 
 	var _getAlignOffset2 = _interopRequireDefault(_getAlignOffset);
 
@@ -29519,15 +27823,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = getElFuturePos;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 502 */
+/* 501 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 485 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -29566,15 +27864,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = getRegion;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 503 */
+/* 502 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 486 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -29653,15 +27945,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = getVisibleRectForElement;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 504 */
+/* 503 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 487 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -29677,35 +27963,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _getOffsetParent2 = _interopRequireDefault(_getOffsetParent);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _getVisibleRectForElement = __webpack_require__(503);
+	var _getVisibleRectForElement = __webpack_require__(502);
 
 	var _getVisibleRectForElement2 = _interopRequireDefault(_getVisibleRectForElement);
 
-	var _adjustForViewport = __webpack_require__(500);
+	var _adjustForViewport = __webpack_require__(499);
 
 	var _adjustForViewport2 = _interopRequireDefault(_adjustForViewport);
 
-	var _getRegion = __webpack_require__(502);
+	var _getRegion = __webpack_require__(501);
 
 	var _getRegion2 = _interopRequireDefault(_getRegion);
 
-	var _getElFuturePos = __webpack_require__(501);
-=======
-	var _getVisibleRectForElement = __webpack_require__(486);
-
-	var _getVisibleRectForElement2 = _interopRequireDefault(_getVisibleRectForElement);
-
-	var _adjustForViewport = __webpack_require__(482);
-
-	var _adjustForViewport2 = _interopRequireDefault(_adjustForViewport);
-
-	var _getRegion = __webpack_require__(485);
-
-	var _getRegion2 = _interopRequireDefault(_getRegion);
-
-	var _getElFuturePos = __webpack_require__(484);
->>>>>>> feature: ckeditor toolbar
+	var _getElFuturePos = __webpack_require__(500);
 
 	var _getElFuturePos2 = _interopRequireDefault(_getElFuturePos);
 
@@ -29953,15 +28223,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 505 */
+/* 504 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 488 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -30074,23 +28338,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 506 */
+/* 505 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var util = __webpack_require__(507);
-=======
-/***/ },
-/* 489 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var util = __webpack_require__(490);
->>>>>>> feature: ckeditor toolbar
+	var util = __webpack_require__(506);
 
 	function scrollIntoView(elem, container, config) {
 	  config = config || {};
@@ -30218,15 +28472,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = scrollIntoView;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 507 */
+/* 506 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 490 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -30668,21 +28916,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	  viewportHeight: 0
 	}, domUtils);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 508 */
+/* 507 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 491 */
-/***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
-/***/ },
-/* 492 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
+/***/ }),
+/* 508 */
+/***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
@@ -30734,29 +28976,16 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	// removed by extract-text-webpack-plugin
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 517 */
+/* 517 */,
+/* 518 */
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 518 */,
 /* 519 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 501 */,
-/* 502 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 503 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	// removed by extract-text-webpack-plugin
 
@@ -30772,7 +29001,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	// removed by extract-text-webpack-plugin
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
 /* 522 */
 /***/ (function(module, exports) {
@@ -30782,18 +29010,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ }),
 /* 523 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 506 */,
-/* 507 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 508 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	// removed by extract-text-webpack-plugin
 
@@ -30813,21 +29029,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 526 */
 /***/ (function(module, exports) {
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 527 */
 /***/ (function(module, exports) {
 
-	// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 528 */
-/***/ (function(module, exports) {
-
-=======
->>>>>>> feature: ckeditor toolbar
 	"use strict";
 
 	/**
@@ -30867,15 +29074,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = emptyFunction;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 529 */
+/* 528 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 512 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * Copyright (c) 2013-present, Facebook, Inc.
@@ -30897,15 +29098,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = emptyObject;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 530 */
+/* 529 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 513 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * Adds the key-value `pair` to `map`.
@@ -30924,15 +29119,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = addMapEntry;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 531 */
+/* 530 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 514 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * Adds `value` to `set`.
@@ -30951,15 +29140,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = addSetEntry;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 532 */
+/* 531 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 515 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * A specialized version of `_.forEach` for arrays without support for
@@ -30985,15 +29168,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = arrayEach;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 533 */
+/* 532 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 516 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var copyObject = __webpack_require__(106),
 	    keys = __webpack_require__(135);
@@ -31014,15 +29191,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = baseAssign;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 534 */
+/* 533 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 517 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var copyObject = __webpack_require__(106),
 	    keysIn = __webpack_require__(200);
@@ -31043,55 +29214,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = baseAssignIn;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 535 */
+/* 534 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var Stack = __webpack_require__(183),
-	    arrayEach = __webpack_require__(532),
+	    arrayEach = __webpack_require__(531),
 	    assignValue = __webpack_require__(300),
-	    baseAssign = __webpack_require__(533),
-	    baseAssignIn = __webpack_require__(534),
-	    cloneBuffer = __webpack_require__(545),
-	    copyArray = __webpack_require__(552),
-	    copySymbols = __webpack_require__(553),
-	    copySymbolsIn = __webpack_require__(554),
+	    baseAssign = __webpack_require__(532),
+	    baseAssignIn = __webpack_require__(533),
+	    cloneBuffer = __webpack_require__(544),
+	    copyArray = __webpack_require__(551),
+	    copySymbols = __webpack_require__(552),
+	    copySymbolsIn = __webpack_require__(553),
 	    getAllKeys = __webpack_require__(192),
-	    getAllKeysIn = __webpack_require__(558),
+	    getAllKeysIn = __webpack_require__(557),
 	    getTag = __webpack_require__(194),
-	    initCloneArray = __webpack_require__(559),
-	    initCloneByTag = __webpack_require__(560),
-	    initCloneObject = __webpack_require__(561),
+	    initCloneArray = __webpack_require__(558),
+	    initCloneByTag = __webpack_require__(559),
+	    initCloneObject = __webpack_require__(560),
 	    isArray = __webpack_require__(29),
 	    isBuffer = __webpack_require__(121),
 	    isObject = __webpack_require__(23),
 	    keys = __webpack_require__(135);
-=======
-/***/ },
-/* 518 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var Stack = __webpack_require__(178),
-	    arrayEach = __webpack_require__(515),
-	    assignValue = __webpack_require__(293),
-	    baseAssign = __webpack_require__(516),
-	    baseAssignIn = __webpack_require__(517),
-	    cloneBuffer = __webpack_require__(528),
-	    copyArray = __webpack_require__(535),
-	    copySymbols = __webpack_require__(536),
-	    copySymbolsIn = __webpack_require__(537),
-	    getAllKeys = __webpack_require__(187),
-	    getAllKeysIn = __webpack_require__(541),
-	    getTag = __webpack_require__(189),
-	    initCloneArray = __webpack_require__(542),
-	    initCloneByTag = __webpack_require__(543),
-	    initCloneObject = __webpack_require__(544),
-	    isArray = __webpack_require__(26),
-	    isBuffer = __webpack_require__(114),
-	    isObject = __webpack_require__(22),
-	    keys = __webpack_require__(129);
->>>>>>> feature: ckeditor toolbar
 
 	/** Used to compose bitmasks for cloning. */
 	var CLONE_DEEP_FLAG = 1,
@@ -31228,15 +29373,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = baseClone;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 536 */
+/* 535 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 519 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var isObject = __webpack_require__(23);
 
@@ -31270,15 +29409,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = baseCreate;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 537 */
+/* 536 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 520 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * The base implementation of `_.findIndex` and `_.findLastIndex` without
@@ -31306,23 +29439,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = baseFindIndex;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 538 */
+/* 537 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var baseFindIndex = __webpack_require__(537),
-	    baseIsNaN = __webpack_require__(540),
-	    strictIndexOf = __webpack_require__(568);
-=======
-/***/ },
-/* 521 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var baseFindIndex = __webpack_require__(520),
-	    baseIsNaN = __webpack_require__(523),
-	    strictIndexOf = __webpack_require__(551);
->>>>>>> feature: ckeditor toolbar
+	var baseFindIndex = __webpack_require__(536),
+	    baseIsNaN = __webpack_require__(539),
+	    strictIndexOf = __webpack_require__(567);
 
 	/**
 	 * The base implementation of `_.indexOf` without `fromIndex` bounds checks.
@@ -31342,15 +29465,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = baseIndexOf;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 539 */
+/* 538 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 522 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var SetCache = __webpack_require__(104),
 	    arrayIncludes = __webpack_require__(186),
@@ -31428,15 +29545,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = baseIntersection;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 540 */
+/* 539 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 523 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * The base implementation of `_.isNaN` without support for number objects.
@@ -31452,23 +29563,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = baseIsNaN;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 541 */
+/* 540 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var isObject = __webpack_require__(23),
 	    isPrototype = __webpack_require__(133),
-	    nativeKeysIn = __webpack_require__(564);
-=======
-/***/ },
-/* 524 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var isObject = __webpack_require__(22),
-	    isPrototype = __webpack_require__(127),
-	    nativeKeysIn = __webpack_require__(547);
->>>>>>> feature: ckeditor toolbar
+	    nativeKeysIn = __webpack_require__(563);
 
 	/** Used for built-in method references. */
 	var objectProto = Object.prototype;
@@ -31501,23 +29602,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = baseKeysIn;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 542 */
+/* 541 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var constant = __webpack_require__(571),
+	var constant = __webpack_require__(570),
 	    defineProperty = __webpack_require__(313),
 	    identity = __webpack_require__(346);
-=======
-/***/ },
-/* 525 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var constant = __webpack_require__(554),
-	    defineProperty = __webpack_require__(306),
-	    identity = __webpack_require__(339);
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * The base implementation of `setToString` without support for hot loop shorting.
@@ -31539,15 +29630,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = baseSetToString;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 543 */
+/* 542 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 526 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var baseDifference = __webpack_require__(302),
 	    baseFlatten = __webpack_require__(303),
@@ -31587,15 +29672,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = baseXor;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 544 */
+/* 543 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 527 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var isArrayLikeObject = __webpack_require__(134);
 
@@ -31613,15 +29692,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = castArrayLikeObject;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 545 */
+/* 544 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 528 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(17);
 
@@ -31661,15 +29734,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(84)(module)))
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 546 */
+/* 545 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 529 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var cloneArrayBuffer = __webpack_require__(191);
 
@@ -31689,23 +29756,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = cloneDataView;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 547 */
+/* 546 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var addMapEntry = __webpack_require__(530),
+	var addMapEntry = __webpack_require__(529),
 	    arrayReduce = __webpack_require__(298),
 	    mapToArray = __webpack_require__(196);
-=======
-/***/ },
-/* 530 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var addMapEntry = __webpack_require__(513),
-	    arrayReduce = __webpack_require__(291),
-	    mapToArray = __webpack_require__(191);
->>>>>>> feature: ckeditor toolbar
 
 	/** Used to compose bitmasks for cloning. */
 	var CLONE_DEEP_FLAG = 1;
@@ -31727,15 +29784,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = cloneMap;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 548 */
+/* 547 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 531 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	/** Used to match `RegExp` flags from their coerced string values. */
 	var reFlags = /\w*$/;
@@ -31756,23 +29807,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = cloneRegExp;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 549 */
+/* 548 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var addSetEntry = __webpack_require__(531),
+	var addSetEntry = __webpack_require__(530),
 	    arrayReduce = __webpack_require__(298),
 	    setToArray = __webpack_require__(107);
-=======
-/***/ },
-/* 532 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var addSetEntry = __webpack_require__(514),
-	    arrayReduce = __webpack_require__(291),
-	    setToArray = __webpack_require__(100);
->>>>>>> feature: ckeditor toolbar
 
 	/** Used to compose bitmasks for cloning. */
 	var CLONE_DEEP_FLAG = 1;
@@ -31794,15 +29835,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = cloneSet;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 550 */
+/* 549 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 533 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var Symbol = __webpack_require__(57);
 
@@ -31824,15 +29859,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = cloneSymbol;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 551 */
+/* 550 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 534 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var cloneArrayBuffer = __webpack_require__(191);
 
@@ -31852,15 +29881,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = cloneTypedArray;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 552 */
+/* 551 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 535 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * Copies the values of `source` to `array`.
@@ -31884,15 +29907,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = copyArray;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 553 */
+/* 552 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 536 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var copyObject = __webpack_require__(106),
 	    getSymbols = __webpack_require__(132);
@@ -31912,15 +29929,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = copySymbols;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 554 */
+/* 553 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 537 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var copyObject = __webpack_require__(106),
 	    getSymbolsIn = __webpack_require__(317);
@@ -31940,21 +29951,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = copySymbolsIn;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 555 */
+/* 554 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var baseRest = __webpack_require__(75),
-	    isIterateeCall = __webpack_require__(563);
-=======
-/***/ },
-/* 538 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var baseRest = __webpack_require__(71),
-	    isIterateeCall = __webpack_require__(546);
->>>>>>> feature: ckeditor toolbar
+	    isIterateeCall = __webpack_require__(562);
 
 	/**
 	 * Creates a function like `_.assign`.
@@ -31992,15 +29994,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = createAssigner;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 556 */
+/* 555 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 539 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var Set = __webpack_require__(182),
 	    noop = __webpack_require__(348),
@@ -32023,15 +30019,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = createSet;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 557 */
+/* 556 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 540 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var eq = __webpack_require__(67);
 
@@ -32064,15 +30054,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = customDefaultsAssignIn;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 558 */
+/* 557 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 541 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var baseGetAllKeys = __webpack_require__(190),
 	    getSymbolsIn = __webpack_require__(317),
@@ -32093,15 +30077,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = getAllKeysIn;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 559 */
+/* 558 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 542 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	/** Used for built-in method references. */
 	var objectProto = Object.prototype;
@@ -32131,31 +30109,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = initCloneArray;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 560 */
+/* 559 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var cloneArrayBuffer = __webpack_require__(191),
-	    cloneDataView = __webpack_require__(546),
-	    cloneMap = __webpack_require__(547),
-	    cloneRegExp = __webpack_require__(548),
-	    cloneSet = __webpack_require__(549),
-	    cloneSymbol = __webpack_require__(550),
-	    cloneTypedArray = __webpack_require__(551);
-=======
-/***/ },
-/* 543 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var cloneArrayBuffer = __webpack_require__(186),
-	    cloneDataView = __webpack_require__(529),
-	    cloneMap = __webpack_require__(530),
-	    cloneRegExp = __webpack_require__(531),
-	    cloneSet = __webpack_require__(532),
-	    cloneSymbol = __webpack_require__(533),
-	    cloneTypedArray = __webpack_require__(534);
->>>>>>> feature: ckeditor toolbar
+	    cloneDataView = __webpack_require__(545),
+	    cloneMap = __webpack_require__(546),
+	    cloneRegExp = __webpack_require__(547),
+	    cloneSet = __webpack_require__(548),
+	    cloneSymbol = __webpack_require__(549),
+	    cloneTypedArray = __webpack_require__(550);
 
 	/** `Object#toString` result references. */
 	var boolTag = '[object Boolean]',
@@ -32231,23 +30195,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = initCloneByTag;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 561 */
+/* 560 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var baseCreate = __webpack_require__(536),
+	var baseCreate = __webpack_require__(535),
 	    getPrototype = __webpack_require__(193),
 	    isPrototype = __webpack_require__(133);
-=======
-/***/ },
-/* 544 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var baseCreate = __webpack_require__(519),
-	    getPrototype = __webpack_require__(188),
-	    isPrototype = __webpack_require__(127);
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * Initializes an object clone.
@@ -32265,15 +30219,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = initCloneObject;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 562 */
+/* 561 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 545 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var Symbol = __webpack_require__(57),
 	    isArguments = __webpack_require__(199),
@@ -32297,15 +30245,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = isFlattenable;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 563 */
+/* 562 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 546 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var eq = __webpack_require__(67),
 	    isArrayLike = __webpack_require__(108),
@@ -32339,15 +30281,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = isIterateeCall;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 564 */
+/* 563 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 547 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * This function is like
@@ -32371,15 +30307,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = nativeKeysIn;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 565 */
+/* 564 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 548 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var apply = __webpack_require__(297);
 
@@ -32419,21 +30349,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = overRest;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 566 */
+/* 565 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var baseSetToString = __webpack_require__(542),
-	    shortOut = __webpack_require__(567);
-=======
-/***/ },
-/* 549 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var baseSetToString = __webpack_require__(525),
-	    shortOut = __webpack_require__(550);
->>>>>>> feature: ckeditor toolbar
+	var baseSetToString = __webpack_require__(541),
+	    shortOut = __webpack_require__(566);
 
 	/**
 	 * Sets the `toString` method of `func` to return `string`.
@@ -32448,15 +30369,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = setToString;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 567 */
+/* 566 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 550 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	/** Used to detect hot functions by number of calls within a span of milliseconds. */
 	var HOT_COUNT = 800,
@@ -32497,15 +30412,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = shortOut;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 568 */
+/* 567 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 551 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * A specialized version of `_.indexOf` which performs strict equality
@@ -32532,23 +30441,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = strictIndexOf;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 569 */
+/* 568 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var copyObject = __webpack_require__(106),
-	    createAssigner = __webpack_require__(555),
+	    createAssigner = __webpack_require__(554),
 	    keysIn = __webpack_require__(200);
-=======
-/***/ },
-/* 552 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var copyObject = __webpack_require__(99),
-	    createAssigner = __webpack_require__(538),
-	    keysIn = __webpack_require__(195);
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * This method is like `_.assignIn` except that it accepts `customizer`
@@ -32586,19 +30485,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = assignInWith;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 570 */
+/* 569 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var baseClone = __webpack_require__(535);
-=======
-/***/ },
-/* 553 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var baseClone = __webpack_require__(518);
->>>>>>> feature: ckeditor toolbar
+	var baseClone = __webpack_require__(534);
 
 	/** Used to compose bitmasks for cloning. */
 	var CLONE_DEEP_FLAG = 1,
@@ -32629,15 +30520,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = cloneDeep;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 571 */
+/* 570 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 554 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * Creates a function that returns `value`.
@@ -32667,25 +30552,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = constant;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 572 */
+/* 571 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var apply = __webpack_require__(297),
-	    assignInWith = __webpack_require__(569),
+	    assignInWith = __webpack_require__(568),
 	    baseRest = __webpack_require__(75),
-	    customDefaultsAssignIn = __webpack_require__(557);
-=======
-/***/ },
-/* 555 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var apply = __webpack_require__(290),
-	    assignInWith = __webpack_require__(552),
-	    baseRest = __webpack_require__(71),
-	    customDefaultsAssignIn = __webpack_require__(540);
->>>>>>> feature: ckeditor toolbar
+	    customDefaultsAssignIn = __webpack_require__(556);
 
 	/**
 	 * Assigns own and inherited enumerable string keyed properties of source
@@ -32716,25 +30590,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = defaults;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 573 */
+/* 572 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var arrayMap = __webpack_require__(189),
-	    baseIntersection = __webpack_require__(539),
+	    baseIntersection = __webpack_require__(538),
 	    baseRest = __webpack_require__(75),
-	    castArrayLikeObject = __webpack_require__(544);
-=======
-/***/ },
-/* 556 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var arrayMap = __webpack_require__(184),
-	    baseIntersection = __webpack_require__(522),
-	    baseRest = __webpack_require__(71),
-	    castArrayLikeObject = __webpack_require__(527);
->>>>>>> feature: ckeditor toolbar
+	    castArrayLikeObject = __webpack_require__(543);
 
 	/**
 	 * Creates an array of unique values that are included in all given arrays
@@ -32763,15 +30626,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = intersection;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 574 */
+/* 573 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 557 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var MapCache = __webpack_require__(120);
 
@@ -32848,15 +30705,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = memoize;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 575 */
+/* 574 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 558 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var baseFlatten = __webpack_require__(303),
 	    baseRest = __webpack_require__(75),
@@ -32886,25 +30737,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = union;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 576 */
+/* 575 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var arrayFilter = __webpack_require__(185),
 	    baseRest = __webpack_require__(75),
-	    baseXor = __webpack_require__(543),
+	    baseXor = __webpack_require__(542),
 	    isArrayLikeObject = __webpack_require__(134);
-=======
-/***/ },
-/* 559 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var arrayFilter = __webpack_require__(180),
-	    baseRest = __webpack_require__(71),
-	    baseXor = __webpack_require__(526),
-	    isArrayLikeObject = __webpack_require__(128);
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * Creates an array of unique values that is the
@@ -32931,9 +30771,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = xor;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 577 */
+/* 576 */
 /***/ (function(module, exports) {
 
 	'use strict'
@@ -32971,13 +30810,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ }),
-/* 578 */
+/* 577 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 560 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * Copyright 2013-present, Facebook, Inc.
@@ -32990,14 +30824,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var emptyFunction = __webpack_require__(528);
+	var emptyFunction = __webpack_require__(527);
 	var invariant = __webpack_require__(292);
-	var ReactPropTypesSecret = __webpack_require__(579);
-=======
-	var emptyFunction = __webpack_require__(511);
-	var invariant = __webpack_require__(512);
->>>>>>> feature: ckeditor toolbar
+	var ReactPropTypesSecret = __webpack_require__(578);
 
 	module.exports = function() {
 	  function shim(props, propName, componentName, location, propFullName, secret) {
@@ -33045,15 +30874,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 579 */
+/* 578 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 561 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * Copyright 2013-present, Facebook, Inc.
@@ -33068,29 +30891,12 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	module.exports = ReactPropTypesSecret;
 
 
 /***/ }),
-/* 580 */
+/* 579 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-	  // By explicitly using `prop-types` you are opting into new development behavior.
-	  // http://fb.me/prop-types-in-prod
-	  var throwOnDirectAccess = true;
-	  module.exports = require('./factoryWithTypeCheckers')(isValidElement, throwOnDirectAccess);
-	} else {
-	  // By explicitly using `prop-types` you are opting into new production behavior.
-	  // http://fb.me/prop-types-in-prod
-	  module.exports = __webpack_require__(560)();
-	}
-
-
-/***/ },
-/* 562 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -33110,11 +30916,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _domAlign = __webpack_require__(504);
-=======
-	var _domAlign = __webpack_require__(487);
->>>>>>> feature: ckeditor toolbar
+	var _domAlign = __webpack_require__(503);
 
 	var _domAlign2 = _interopRequireDefault(_domAlign);
 
@@ -33122,11 +30924,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _addEventListener2 = _interopRequireDefault(_addEventListener);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _isWindow = __webpack_require__(582);
-=======
-	var _isWindow = __webpack_require__(564);
->>>>>>> feature: ckeditor toolbar
+	var _isWindow = __webpack_require__(581);
 
 	var _isWindow2 = _interopRequireDefault(_isWindow);
 
@@ -33281,15 +31079,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = Align;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 581 */
+/* 580 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 563 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -33297,11 +31089,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _Align = __webpack_require__(580);
-=======
-	var _Align = __webpack_require__(562);
->>>>>>> feature: ckeditor toolbar
+	var _Align = __webpack_require__(579);
 
 	var _Align2 = _interopRequireDefault(_Align);
 
@@ -33311,15 +31099,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 582 */
+/* 581 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 564 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	"use strict";
 
@@ -33334,15 +31116,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 583 */
+/* 582 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 565 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -33356,19 +31132,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var _propTypes = __webpack_require__(10);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _ChildrenUtils = __webpack_require__(585);
+	var _ChildrenUtils = __webpack_require__(584);
 
-	var _AnimateChild = __webpack_require__(584);
-=======
-	var _ChildrenUtils = __webpack_require__(567);
-
-	var _AnimateChild = __webpack_require__(566);
->>>>>>> feature: ckeditor toolbar
+	var _AnimateChild = __webpack_require__(583);
 
 	var _AnimateChild2 = _interopRequireDefault(_AnimateChild);
 
@@ -33716,15 +31486,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = Animate;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 584 */
+/* 583 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 566 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -33742,15 +31506,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var _propTypes = __webpack_require__(10);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _cssAnimation = __webpack_require__(483);
-=======
-	var _cssAnimation = __webpack_require__(465);
->>>>>>> feature: ckeditor toolbar
+	var _cssAnimation = __webpack_require__(482);
 
 	var _cssAnimation2 = _interopRequireDefault(_cssAnimation);
 
@@ -33862,15 +31622,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = AnimateChild;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 585 */
+/* 584 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 567 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -33990,15 +31744,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return ret;
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 586 */
+/* 585 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 568 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -34034,19 +31782,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _rcAnimate2 = _interopRequireDefault(_rcAnimate);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _LazyRenderBox = __webpack_require__(588);
+	var _LazyRenderBox = __webpack_require__(587);
 
 	var _LazyRenderBox2 = _interopRequireDefault(_LazyRenderBox);
 
-	var _getScrollBarSize = __webpack_require__(616);
-=======
-	var _LazyRenderBox = __webpack_require__(570);
-
-	var _LazyRenderBox2 = _interopRequireDefault(_LazyRenderBox);
-
-	var _getScrollBarSize = __webpack_require__(597);
->>>>>>> feature: ckeditor toolbar
+	var _getScrollBarSize = __webpack_require__(615);
 
 	var _getScrollBarSize2 = _interopRequireDefault(_getScrollBarSize);
 
@@ -34359,15 +32099,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 587 */
+/* 586 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 569 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -34379,15 +32113,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var _createReactClass = __webpack_require__(28);
 
 	var _createReactClass2 = _interopRequireDefault(_createReactClass);
 
-	var _Dialog = __webpack_require__(586);
-=======
-	var _Dialog = __webpack_require__(568);
->>>>>>> feature: ckeditor toolbar
+	var _Dialog = __webpack_require__(585);
 
 	var _Dialog2 = _interopRequireDefault(_Dialog);
 
@@ -34459,15 +32189,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = DialogWrap;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 588 */
+/* 587 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 570 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -34537,15 +32261,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = LazyRenderBox;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 589 */
+/* 588 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 571 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -34571,11 +32289,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _rcTrigger2 = _interopRequireDefault(_rcTrigger);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _placements = __webpack_require__(590);
-=======
-	var _placements = __webpack_require__(572);
->>>>>>> feature: ckeditor toolbar
+	var _placements = __webpack_require__(589);
 
 	var _placements2 = _interopRequireDefault(_placements);
 
@@ -34762,15 +32476,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = Dropdown;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 590 */
+/* 589 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 572 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -34825,15 +32533,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports["default"] = placements;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 591 */
+/* 590 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 573 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -34890,15 +32592,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = DOMWrap;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 592 */
+/* 591 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 574 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -34947,15 +32643,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = Divider;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 593 */
+/* 592 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 575 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -35214,15 +32904,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = Menu;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 594 */
+/* 593 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 576 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -35442,15 +33126,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = MenuItem;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 595 */
+/* 594 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 577 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -35524,15 +33202,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = MenuItemGroup;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 596 */
+/* 595 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 578 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -35548,13 +33220,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends3 = _interopRequireDefault(_extends2);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-=======
-	var _SubPopupMenu = __webpack_require__(580);
-
-	var _SubPopupMenu2 = _interopRequireDefault(_SubPopupMenu);
-
->>>>>>> feature: ckeditor toolbar
 	var _react = __webpack_require__(1);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -35567,7 +33232,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createReactClass2 = _interopRequireDefault(_createReactClass);
 
-	var _SubPopupMenu = __webpack_require__(598);
+	var _SubPopupMenu = __webpack_require__(597);
 
 	var _SubPopupMenu2 = _interopRequireDefault(_SubPopupMenu);
 
@@ -35591,7 +33256,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	  displayName: 'SubMenu',
 
 	  propTypes: {
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	    parentMenu: _propTypes2["default"].object,
 	    title: _propTypes2["default"].node,
 	    children: _propTypes2["default"].any,
@@ -35616,34 +33280,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    onTitleClick: _propTypes2["default"].func
 	  },
 
-	  mixins: [__webpack_require__(597)],
-=======
-	    parentMenu: _react.PropTypes.object,
-	    title: _react.PropTypes.node,
-	    children: _react.PropTypes.any,
-	    selectedKeys: _react.PropTypes.array,
-	    openKeys: _react.PropTypes.array,
-	    onClick: _react.PropTypes.func,
-	    onOpenChange: _react.PropTypes.func,
-	    rootPrefixCls: _react.PropTypes.string,
-	    eventKey: _react.PropTypes.string,
-	    multiple: _react.PropTypes.bool,
-	    active: _react.PropTypes.bool,
-	    onSelect: _react.PropTypes.func,
-	    closeSubMenuOnMouseLeave: _react.PropTypes.bool,
-	    openSubMenuOnMouseEnter: _react.PropTypes.bool,
-	    onDeselect: _react.PropTypes.func,
-	    onDestroy: _react.PropTypes.func,
-	    onItemHover: _react.PropTypes.func,
-	    onMouseEnter: _react.PropTypes.func,
-	    onMouseLeave: _react.PropTypes.func,
-	    onTitleMouseEnter: _react.PropTypes.func,
-	    onTitleMouseLeave: _react.PropTypes.func,
-	    onTitleClick: _react.PropTypes.func
-	  },
-
-	  mixins: [__webpack_require__(579)],
->>>>>>> feature: ckeditor toolbar
+	  mixins: [__webpack_require__(596)],
 
 	  getDefaultProps: function getDefaultProps() {
 	    return {
@@ -36033,15 +33670,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = SubMenu;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 597 */
+/* 596 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 579 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -36053,19 +33684,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _KeyCode2 = _interopRequireDefault(_KeyCode);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var _addEventListener = __webpack_require__(204);
 
 	var _addEventListener2 = _interopRequireDefault(_addEventListener);
 
 	var _contains = __webpack_require__(360);
-=======
-	var _addEventListener = __webpack_require__(581);
-
-	var _addEventListener2 = _interopRequireDefault(_addEventListener);
-
-	var _contains = __webpack_require__(582);
->>>>>>> feature: ckeditor toolbar
 
 	var _contains2 = _interopRequireDefault(_contains);
 
@@ -36134,15 +33757,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 598 */
+/* 597 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 580 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -36275,15 +33892,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = SubPopupMenu;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 599 */
+/* 598 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 581 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -36303,13 +33914,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var _createClass2 = __webpack_require__(6);
-=======
-/***/ },
-/* 582 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -36317,13 +33922,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var _inherits2 = __webpack_require__(4);
-=======
-/***/ },
-/* 583 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -36461,7 +34060,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	  gapPosition: _propTypes2['default'].oneOf(['top', 'bottom', 'left', 'right'])
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	Circle.defaultProps = (0, _extends3['default'])({}, _types.defaultProps, {
 	  gapPosition: 'top'
 	});
@@ -36470,7 +34068,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ }),
-/* 600 */
+/* 599 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -36596,7 +34194,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ }),
-/* 601 */
+/* 600 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -36606,11 +34204,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.Circle = exports.Line = undefined;
 
-	var _Line = __webpack_require__(600);
+	var _Line = __webpack_require__(599);
 
 	var _Line2 = _interopRequireDefault(_Line);
 
-	var _Circle = __webpack_require__(599);
+	var _Circle = __webpack_require__(598);
 
 	var _Circle2 = _interopRequireDefault(_Circle);
 
@@ -36624,13 +34222,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ }),
-/* 602 */
+/* 601 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 584 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -36656,11 +34249,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createReactClass2 = _interopRequireDefault(_createReactClass);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _toArray = __webpack_require__(614);
-=======
-	var _toArray = __webpack_require__(595);
->>>>>>> feature: ckeditor toolbar
+	var _toArray = __webpack_require__(613);
 
 	var _toArray2 = _interopRequireDefault(_toArray);
 
@@ -36816,15 +34405,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = DropdownMenu;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 603 */
+/* 602 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 585 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -36844,11 +34427,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _rcMenu = __webpack_require__(356);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _warning = __webpack_require__(609);
-=======
-	var _warning = __webpack_require__(590);
->>>>>>> feature: ckeditor toolbar
+	var _warning = __webpack_require__(608);
 
 	var _warning2 = _interopRequireDefault(_warning);
 
@@ -36974,15 +34553,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 604 */
+/* 603 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 586 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -37023,15 +34596,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = OptGroup;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 605 */
+/* 604 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 587 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -37079,9 +34646,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = Option;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 606 */
+/* 605 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -37150,13 +34716,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ }),
-/* 607 */
+/* 606 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 588 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -37202,23 +34763,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _util = __webpack_require__(139);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _SelectTrigger = __webpack_require__(608);
+	var _SelectTrigger = __webpack_require__(607);
 
 	var _SelectTrigger2 = _interopRequireDefault(_SelectTrigger);
 
-	var _FilterMixin = __webpack_require__(603);
-=======
-	var _SelectTrigger = __webpack_require__(589);
-
-	var _SelectTrigger2 = _interopRequireDefault(_SelectTrigger);
-
-	var _FilterMixin = __webpack_require__(585);
->>>>>>> feature: ckeditor toolbar
+	var _FilterMixin = __webpack_require__(602);
 
 	var _FilterMixin2 = _interopRequireDefault(_FilterMixin);
 
-	var _PropTypes = __webpack_require__(606);
+	var _PropTypes = __webpack_require__(605);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -38193,15 +35746,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = Select;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 608 */
+/* 607 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 589 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -38241,11 +35788,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _classnames2 = _interopRequireDefault(_classnames);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _DropdownMenu = __webpack_require__(602);
-=======
-	var _DropdownMenu = __webpack_require__(584);
->>>>>>> feature: ckeditor toolbar
+	var _DropdownMenu = __webpack_require__(601);
 
 	var _DropdownMenu2 = _interopRequireDefault(_DropdownMenu);
 
@@ -38401,15 +35944,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = SelectTrigger;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 609 */
+/* 608 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 590 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	/**
 	 * Copyright 2014-2015, Facebook, Inc.
@@ -38473,15 +36010,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = warning;
 
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 610 */
+/* 609 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 591 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -38517,11 +36048,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _rcAlign = __webpack_require__(581);
-=======
-	var _rcAlign = __webpack_require__(563);
->>>>>>> feature: ckeditor toolbar
+	var _rcAlign = __webpack_require__(580);
 
 	var _rcAlign2 = _interopRequireDefault(_rcAlign);
 
@@ -38529,11 +36056,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _rcAnimate2 = _interopRequireDefault(_rcAnimate);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _PopupInner = __webpack_require__(611);
-=======
-	var _PopupInner = __webpack_require__(592);
->>>>>>> feature: ckeditor toolbar
+	var _PopupInner = __webpack_require__(610);
 
 	var _PopupInner2 = _interopRequireDefault(_PopupInner);
 
@@ -38752,15 +36275,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = Popup;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 611 */
+/* 610 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 592 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -38838,15 +36355,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = PopupInner;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 612 */
+/* 611 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 593 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -38872,11 +36383,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createReactClass2 = _interopRequireDefault(_createReactClass);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var _contains = __webpack_require__(360);
-=======
-	var _contains = __webpack_require__(596);
->>>>>>> feature: ckeditor toolbar
 
 	var _contains2 = _interopRequireDefault(_contains);
 
@@ -38884,19 +36391,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _addEventListener2 = _interopRequireDefault(_addEventListener);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _Popup = __webpack_require__(610);
+	var _Popup = __webpack_require__(609);
 
 	var _Popup2 = _interopRequireDefault(_Popup);
 
-	var _utils = __webpack_require__(613);
-=======
-	var _Popup = __webpack_require__(591);
-
-	var _Popup2 = _interopRequireDefault(_Popup);
-
-	var _utils = __webpack_require__(594);
->>>>>>> feature: ckeditor toolbar
+	var _utils = __webpack_require__(612);
 
 	var _getContainerRenderMixin = __webpack_require__(361);
 
@@ -39364,15 +36863,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports["default"] = Trigger;
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 613 */
+/* 612 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 594 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -39410,15 +36903,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return '';
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 614 */
+/* 613 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 595 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -39442,15 +36929,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 615 */
+/* 614 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 596 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	"use strict";
 
@@ -39482,15 +36963,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 616 */
+/* 615 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 597 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -39538,15 +37013,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	module.exports = exports['default'];
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 617 */
+/* 616 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 598 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -39556,11 +37025,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _union = __webpack_require__(575);
-=======
-	var _union = __webpack_require__(558);
->>>>>>> feature: ckeditor toolbar
+	var _union = __webpack_require__(574);
 
 	var _union2 = _interopRequireDefault(_union);
 
@@ -39615,15 +37080,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = EnterLeaveCounter;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 618 */
+/* 617 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 599 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -39633,41 +37092,23 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _defaults = __webpack_require__(572);
+	var _defaults = __webpack_require__(571);
 
 	var _defaults2 = _interopRequireDefault(_defaults);
 
-	var _shallowEqual = __webpack_require__(624);
+	var _shallowEqual = __webpack_require__(623);
 
 	var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
 
-	var _EnterLeaveCounter = __webpack_require__(617);
-=======
-	var _defaults = __webpack_require__(555);
-
-	var _defaults2 = _interopRequireDefault(_defaults);
-
-	var _shallowEqual = __webpack_require__(605);
-
-	var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
-
-	var _EnterLeaveCounter = __webpack_require__(598);
->>>>>>> feature: ckeditor toolbar
+	var _EnterLeaveCounter = __webpack_require__(616);
 
 	var _EnterLeaveCounter2 = _interopRequireDefault(_EnterLeaveCounter);
 
 	var _BrowserDetector = __webpack_require__(362);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _OffsetUtils = __webpack_require__(621);
+	var _OffsetUtils = __webpack_require__(620);
 
-	var _NativeDragSources = __webpack_require__(620);
-=======
-	var _OffsetUtils = __webpack_require__(602);
-
-	var _NativeDragSources = __webpack_require__(601);
->>>>>>> feature: ckeditor toolbar
+	var _NativeDragSources = __webpack_require__(619);
 
 	var _NativeTypes = __webpack_require__(205);
 
@@ -40295,15 +37736,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = HTML5Backend;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 619 */
+/* 618 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 600 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	"use strict";
 
@@ -40429,15 +37864,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = MonotonicInterpolant;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 620 */
+/* 619 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 601 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -40555,15 +37984,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  })[0] || null;
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 621 */
+/* 620 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 602 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -40576,11 +37999,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _BrowserDetector = __webpack_require__(362);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _MonotonicInterpolant = __webpack_require__(619);
-=======
-	var _MonotonicInterpolant = __webpack_require__(600);
->>>>>>> feature: ckeditor toolbar
+	var _MonotonicInterpolant = __webpack_require__(618);
 
 	var _MonotonicInterpolant2 = _interopRequireDefault(_MonotonicInterpolant);
 
@@ -40667,15 +38086,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return { x: x, y: y };
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 622 */
+/* 621 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 603 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -40693,15 +38106,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return emptyImage;
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 623 */
+/* 622 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 604 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -40711,19 +38118,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.getEmptyImage = exports.NativeTypes = undefined;
 	exports.default = createHTML5Backend;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _HTML5Backend = __webpack_require__(618);
+	var _HTML5Backend = __webpack_require__(617);
 
 	var _HTML5Backend2 = _interopRequireDefault(_HTML5Backend);
 
-	var _getEmptyImage = __webpack_require__(622);
-=======
-	var _HTML5Backend = __webpack_require__(599);
-
-	var _HTML5Backend2 = _interopRequireDefault(_HTML5Backend);
-
-	var _getEmptyImage = __webpack_require__(603);
->>>>>>> feature: ckeditor toolbar
+	var _getEmptyImage = __webpack_require__(621);
 
 	var _getEmptyImage2 = _interopRequireDefault(_getEmptyImage);
 
@@ -40741,15 +38140,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return new _HTML5Backend2.default(manager);
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 624 */
+/* 623 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 605 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	"use strict";
 
@@ -40787,15 +38180,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return true;
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 625 */
+/* 624 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 606 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -40881,15 +38268,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}, _temp);
 	exports.default = DragDropContextProvider;
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 626 */
+/* 625 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 607 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -41050,15 +38431,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 627 */
+/* 626 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 608 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -41083,35 +38458,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _decorateHandler2 = _interopRequireDefault(_decorateHandler);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _registerSource = __webpack_require__(636);
+	var _registerSource = __webpack_require__(635);
 
 	var _registerSource2 = _interopRequireDefault(_registerSource);
 
-	var _createSourceFactory = __webpack_require__(630);
+	var _createSourceFactory = __webpack_require__(629);
 
 	var _createSourceFactory2 = _interopRequireDefault(_createSourceFactory);
 
-	var _createSourceMonitor = __webpack_require__(631);
+	var _createSourceMonitor = __webpack_require__(630);
 
 	var _createSourceMonitor2 = _interopRequireDefault(_createSourceMonitor);
 
-	var _createSourceConnector = __webpack_require__(629);
-=======
-	var _registerSource = __webpack_require__(617);
-
-	var _registerSource2 = _interopRequireDefault(_registerSource);
-
-	var _createSourceFactory = __webpack_require__(611);
-
-	var _createSourceFactory2 = _interopRequireDefault(_createSourceFactory);
-
-	var _createSourceMonitor = __webpack_require__(612);
-
-	var _createSourceMonitor2 = _interopRequireDefault(_createSourceMonitor);
-
-	var _createSourceConnector = __webpack_require__(610);
->>>>>>> feature: ckeditor toolbar
+	var _createSourceConnector = __webpack_require__(628);
 
 	var _createSourceConnector2 = _interopRequireDefault(_createSourceConnector);
 
@@ -41155,15 +38514,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 628 */
+/* 627 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 609 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -41188,35 +38541,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _decorateHandler2 = _interopRequireDefault(_decorateHandler);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _registerTarget = __webpack_require__(637);
+	var _registerTarget = __webpack_require__(636);
 
 	var _registerTarget2 = _interopRequireDefault(_registerTarget);
 
-	var _createTargetFactory = __webpack_require__(633);
+	var _createTargetFactory = __webpack_require__(632);
 
 	var _createTargetFactory2 = _interopRequireDefault(_createTargetFactory);
 
-	var _createTargetMonitor = __webpack_require__(634);
+	var _createTargetMonitor = __webpack_require__(633);
 
 	var _createTargetMonitor2 = _interopRequireDefault(_createTargetMonitor);
 
-	var _createTargetConnector = __webpack_require__(632);
-=======
-	var _registerTarget = __webpack_require__(618);
-
-	var _registerTarget2 = _interopRequireDefault(_registerTarget);
-
-	var _createTargetFactory = __webpack_require__(614);
-
-	var _createTargetFactory2 = _interopRequireDefault(_createTargetFactory);
-
-	var _createTargetMonitor = __webpack_require__(615);
-
-	var _createTargetMonitor2 = _interopRequireDefault(_createTargetMonitor);
-
-	var _createTargetConnector = __webpack_require__(613);
->>>>>>> feature: ckeditor toolbar
+	var _createTargetConnector = __webpack_require__(631);
 
 	var _createTargetConnector2 = _interopRequireDefault(_createTargetConnector);
 
@@ -41260,15 +38597,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 629 */
+/* 628 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 610 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -41360,15 +38691,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 630 */
+/* 629 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 611 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -41469,15 +38794,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 631 */
+/* 630 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 612 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -41590,15 +38909,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return new SourceMonitor(manager);
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 632 */
+/* 631 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 613 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -41663,15 +38976,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 633 */
+/* 632 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 614 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -41768,15 +39075,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 634 */
+/* 633 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 615 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -41881,15 +39182,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return new TargetMonitor(manager);
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 635 */
+/* 634 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 616 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -41906,11 +39201,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _DragDropContextProvider = __webpack_require__(625);
-=======
-	var _DragDropContextProvider = __webpack_require__(606);
->>>>>>> feature: ckeditor toolbar
+	var _DragDropContextProvider = __webpack_require__(624);
 
 	Object.defineProperty(exports, 'DragDropContextProvider', {
 	  enumerable: true,
@@ -41919,11 +39210,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _DragLayer = __webpack_require__(626);
-=======
-	var _DragLayer = __webpack_require__(607);
->>>>>>> feature: ckeditor toolbar
+	var _DragLayer = __webpack_require__(625);
 
 	Object.defineProperty(exports, 'DragLayer', {
 	  enumerable: true,
@@ -41932,11 +39219,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _DragSource = __webpack_require__(627);
-=======
-	var _DragSource = __webpack_require__(608);
->>>>>>> feature: ckeditor toolbar
+	var _DragSource = __webpack_require__(626);
 
 	Object.defineProperty(exports, 'DragSource', {
 	  enumerable: true,
@@ -41945,11 +39228,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _DropTarget = __webpack_require__(628);
-=======
-	var _DropTarget = __webpack_require__(609);
->>>>>>> feature: ckeditor toolbar
+	var _DropTarget = __webpack_require__(627);
 
 	Object.defineProperty(exports, 'DropTarget', {
 	  enumerable: true,
@@ -41960,15 +39239,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 636 */
+/* 635 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 617 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	"use strict";
 
@@ -41990,15 +39263,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 637 */
+/* 636 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 618 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	"use strict";
 
@@ -42020,15 +39287,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 638 */
+/* 637 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 619 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -42067,23 +39328,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  });
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 639 */
+/* 638 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	(function webpackUniversalModuleDefinition(root, factory) {
 		if(true)
 			module.exports = factory(__webpack_require__(1), __webpack_require__(10));
-=======
-/***/ },
-/* 620 */
-/***/ function(module, exports, __webpack_require__) {
-
-	(function webpackUniversalModuleDefinition(root, factory) {
-		if(true)
-			module.exports = factory(__webpack_require__(1), __webpack_require__(561));
->>>>>>> feature: ckeditor toolbar
 		else if(typeof define === 'function' && define.amd)
 			define(["react", "prop-types"], factory);
 		else if(typeof exports === 'object')
@@ -42957,15 +40208,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	;
 	//# sourceMappingURL=index.js.map
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 640 */
+/* 639 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 621 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -43086,15 +40331,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return sagaMiddleware;
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 641 */
+/* 640 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 622 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -43136,15 +40375,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return task;
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 642 */
+/* 641 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 623 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -43215,15 +40448,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 643 */
+/* 642 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 624 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -43235,11 +40462,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _symbolObservable = __webpack_require__(644);
-=======
-	var _symbolObservable = __webpack_require__(625);
->>>>>>> feature: ckeditor toolbar
+	var _symbolObservable = __webpack_require__(643);
 
 	var _symbolObservable2 = _interopRequireDefault(_symbolObservable);
 
@@ -43491,29 +40714,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, _ref2[_symbolObservable2['default']] = observable, _ref2;
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
+/***/ }),
+/* 643 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__(644);
+
+
 /***/ }),
 /* 644 */
 /***/ (function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__(645);
-
-
-/***/ }),
-/* 645 */
-/***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 625 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__(626);
-
-
-/***/ },
-/* 626 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	/* WEBPACK VAR INJECTION */(function(global, module) {'use strict';
 
@@ -43521,11 +40731,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _ponyfill = __webpack_require__(646);
-=======
-	var _ponyfill = __webpack_require__(627);
->>>>>>> feature: ckeditor toolbar
+	var _ponyfill = __webpack_require__(645);
 
 	var _ponyfill2 = _interopRequireDefault(_ponyfill);
 
@@ -43550,15 +40756,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = result;
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(84)(module)))
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 646 */
+/* 645 */
 /***/ (function(module, exports) {
-=======
-/***/ },
-/* 627 */
-/***/ function(module, exports) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -43584,30 +40784,8 @@ return /******/ (function(modules) { // webpackBootstrap
 		return result;
 	};
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-=======
-/***/ },
-/* 628 */,
-/* 629 */,
-/* 630 */,
-/* 631 */,
-/* 632 */,
-/* 633 */,
-/* 634 */,
-/* 635 */,
-/* 636 */,
-/* 637 */,
-/* 638 */,
-/* 639 */,
-/* 640 */,
-/* 641 */,
-/* 642 */,
-/* 643 */,
-/* 644 */,
-/* 645 */,
 /* 646 */,
->>>>>>> feature: ckeditor toolbar
 /* 647 */,
 /* 648 */,
 /* 649 */,
@@ -43628,7 +40806,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 664 */,
 /* 665 */,
 /* 666 */,
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /* 667 */,
 /* 668 */,
 /* 669 */,
@@ -43647,13 +40824,8 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 682 */,
 /* 683 */,
 /* 684 */,
-/* 685 */,
-/* 686 */
+/* 685 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/* 667 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -43661,11 +40833,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _stringify = __webpack_require__(703);
-=======
-	var _stringify = __webpack_require__(684);
->>>>>>> feature: ckeditor toolbar
+	var _stringify = __webpack_require__(702);
 
 	var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -43744,15 +40912,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.default = (0, _import.connect)(mapStateToProps)(Filter);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 687 */
+/* 686 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 668 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -43999,15 +41161,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-/* 688 */
+/* 687 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 669 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -44116,8 +41272,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, _marked[0], this);
 	}
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
+/* 688 */,
 /* 689 */,
 /* 690 */,
 /* 691 */,
@@ -44125,22 +41281,8 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 693 */,
 /* 694 */,
 /* 695 */,
-/* 696 */,
-/* 697 */
+/* 696 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 670 */,
-/* 671 */,
-/* 672 */,
-/* 673 */,
-/* 674 */,
-/* 675 */,
-/* 676 */,
-/* 677 */,
-/* 678 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	'use strict';
 
@@ -44165,11 +41307,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _Pagination2 = _interopRequireDefault(_Pagination);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _ContainerTree = __webpack_require__(424);
-=======
-	var _ContainerTree = __webpack_require__(413);
->>>>>>> feature: ckeditor toolbar
+	var _ContainerTree = __webpack_require__(423);
 
 	var _ContainerTree2 = _interopRequireDefault(_ContainerTree);
 
@@ -44193,11 +41331,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ActionsPanel2 = _interopRequireDefault(_ActionsPanel);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _Filter = __webpack_require__(686);
-=======
-	var _Filter = __webpack_require__(667);
->>>>>>> feature: ckeditor toolbar
+	var _Filter = __webpack_require__(685);
 
 	var _Filter2 = _interopRequireDefault(_Filter);
 
@@ -44229,19 +41363,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var actionsDialog = _interopRequireWildcard(_actions6);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _reducer = __webpack_require__(428);
+	var _reducer = __webpack_require__(427);
 
 	var _reducer2 = _interopRequireDefault(_reducer);
 
-	var _reducerTable = __webpack_require__(419);
-=======
-	var _reducer = __webpack_require__(417);
-
-	var _reducer2 = _interopRequireDefault(_reducer);
-
-	var _reducerTable = __webpack_require__(408);
->>>>>>> feature: ckeditor toolbar
+	var _reducerTable = __webpack_require__(418);
 
 	var _reducerTable2 = _interopRequireDefault(_reducerTable);
 
@@ -44253,35 +41379,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _reducer4 = _interopRequireDefault(_reducer3);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _reducer5 = __webpack_require__(687);
+	var _reducer5 = __webpack_require__(686);
 
 	var _reducer6 = _interopRequireDefault(_reducer5);
 
-	var _selected = __webpack_require__(422);
+	var _selected = __webpack_require__(421);
 
 	var _selected2 = _interopRequireDefault(_selected);
 
-	var _focus = __webpack_require__(420);
+	var _focus = __webpack_require__(419);
 
 	var _focus2 = _interopRequireDefault(_focus);
 
-	var _history = __webpack_require__(421);
-=======
-	var _reducer5 = __webpack_require__(668);
-
-	var _reducer6 = _interopRequireDefault(_reducer5);
-
-	var _selected = __webpack_require__(411);
-
-	var _selected2 = _interopRequireDefault(_selected);
-
-	var _focus = __webpack_require__(409);
-
-	var _focus2 = _interopRequireDefault(_focus);
-
-	var _history = __webpack_require__(410);
->>>>>>> feature: ckeditor toolbar
+	var _history = __webpack_require__(420);
 
 	var _history2 = _interopRequireDefault(_history);
 
@@ -44289,19 +41399,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _reducer8 = _interopRequireDefault(_reducer7);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _reducers = __webpack_require__(431);
+	var _reducers = __webpack_require__(430);
 
 	var _reducers2 = _interopRequireDefault(_reducers);
 
-	var _ContainerDialog = __webpack_require__(430);
-=======
-	var _reducers = __webpack_require__(420);
-
-	var _reducers2 = _interopRequireDefault(_reducers);
-
-	var _ContainerDialog = __webpack_require__(419);
->>>>>>> feature: ckeditor toolbar
+	var _ContainerDialog = __webpack_require__(429);
 
 	var _ContainerDialog2 = _interopRequireDefault(_ContainerDialog);
 
@@ -44317,27 +41419,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var imageEditorSagas = _interopRequireWildcard(_sagas);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
-	var _sagas2 = __webpack_require__(429);
+	var _sagas2 = __webpack_require__(428);
 
 	var treeSagas = _interopRequireWildcard(_sagas2);
 
-	var _sagas3 = __webpack_require__(688);
+	var _sagas3 = __webpack_require__(687);
 
 	var _sagas4 = _interopRequireDefault(_sagas3);
 
-	var _sagas5 = __webpack_require__(423);
-=======
-	var _sagas2 = __webpack_require__(418);
-
-	var treeSagas = _interopRequireWildcard(_sagas2);
-
-	var _sagas3 = __webpack_require__(669);
-
-	var _sagas4 = _interopRequireDefault(_sagas3);
-
-	var _sagas5 = __webpack_require__(412);
->>>>>>> feature: ckeditor toolbar
+	var _sagas5 = __webpack_require__(422);
 
 	var _sagas6 = _interopRequireDefault(_sagas5);
 
@@ -44347,23 +41437,19 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _actions8 = __webpack_require__(48);
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 	var removeAction = _interopRequireWildcard(_actions8);
 
-	var _sagas8 = __webpack_require__(433);
+	var _sagas8 = __webpack_require__(432);
 
 	var removeSagas = _interopRequireWildcard(_sagas8);
 
-	var _reducer11 = __webpack_require__(432);
+	var _reducer11 = __webpack_require__(431);
 
 	var _reducer12 = _interopRequireDefault(_reducer11);
 
 	__webpack_require__(291);
 
-	__webpack_require__(527);
-=======
-	__webpack_require__(510);
->>>>>>> feature: ckeditor toolbar
+	__webpack_require__(526);
 
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -44422,39 +41508,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	  ContainerDialog: _ContainerDialog2.default
 	};
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
+/* 697 */,
 /* 698 */,
 /* 699 */,
 /* 700 */,
 /* 701 */,
-/* 702 */,
-/* 703 */
+/* 702 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(705), __esModule: true };
+	module.exports = { "default": __webpack_require__(704), __esModule: true };
 
 /***/ }),
-/* 704 */,
-/* 705 */
+/* 703 */,
+/* 704 */
 /***/ (function(module, exports, __webpack_require__) {
-=======
-/***/ },
-/* 679 */,
-/* 680 */,
-/* 681 */,
-/* 682 */,
-/* 683 */,
-/* 684 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = { "default": __webpack_require__(686), __esModule: true };
-
-/***/ },
-/* 685 */,
-/* 686 */
-/***/ function(module, exports, __webpack_require__) {
->>>>>>> feature: ckeditor toolbar
 
 	var core  = __webpack_require__(12)
 	  , $JSON = core.JSON || (core.JSON = {stringify: JSON.stringify});
@@ -44462,30 +41530,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return $JSON.stringify.apply($JSON, arguments);
 	};
 
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /***/ }),
-=======
-/***/ },
-/* 687 */,
-/* 688 */,
-/* 689 */,
-/* 690 */,
-/* 691 */,
-/* 692 */,
-/* 693 */,
-/* 694 */,
-/* 695 */,
-/* 696 */,
-/* 697 */,
-/* 698 */,
-/* 699 */,
-/* 700 */,
-/* 701 */,
-/* 702 */,
-/* 703 */,
-/* 704 */,
 /* 705 */,
->>>>>>> feature: ckeditor toolbar
 /* 706 */,
 /* 707 */,
 /* 708 */,
@@ -44649,7 +41695,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 866 */,
 /* 867 */,
 /* 868 */,
-<<<<<<< e4191ceec6de154989f6da1905a6407249207f1c
 /* 869 */,
 /* 870 */,
 /* 871 */,
@@ -44668,21 +41713,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 884 */,
 /* 885 */,
 /* 886 */,
-/* 887 */,
-/* 888 */
+/* 887 */
 /***/ (function(module, exports) {
 
-	module.exports = __WEBPACK_EXTERNAL_MODULE_888__;
+	module.exports = __WEBPACK_EXTERNAL_MODULE_887__;
 
 /***/ })
-=======
-/* 869 */
-/***/ function(module, exports) {
-
-	module.exports = __WEBPACK_EXTERNAL_MODULE_869__;
-
-/***/ }
->>>>>>> feature: ckeditor toolbar
 /******/ ])
 });
 ;
